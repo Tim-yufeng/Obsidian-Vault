@@ -1,0 +1,50 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1757428531894,
+      "path": "First folder (try 1)/create a link.md",
+      "title": "my first attempt"
+    },
+    {
+      "type": "file",
+      "ctime": 1757428666046,
+      "path": "First folder (try 1)/the third link.md",
+      "title": "my second attempt"
+    },
+    {
+      "type": "file",
+      "ctime": 1757428801246,
+      "path": "First folder (try 1)/Welcome.md",
+      "title": "the given note"
+    },
+    {
+      "type": "group",
+      "ctime": 1757429038587,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1757429026498,
+          "path": "First folder (try 1)/the third link.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1757429026498,
+          "path": "First folder (try 1)/create a link.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1757429026498,
+          "path": "First folder (try 1)/Welcome.md"
+        }
+      ],
+      "title": "first try"
+    },
+    {
+      "type": "file",
+      "ctime": 1757575739453,
+      "path": "_Home.md",
+      "title": "Base note"
+    }
+  ]
+}

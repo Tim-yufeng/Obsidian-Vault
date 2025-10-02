@@ -1,0 +1,19 @@
+# 忽略插件和缓存
+.obsidian/plugins/
+.obsidian/cache/
+.obsidian/workspace.json
+
+# 忽略常见大文件
+*.pdf
+*.zip
+*.rar
+*.mp4
+*.avi
+*.mov
+# *.png
+# *.jpg
+*.jpeg
+*.gif
+*.svg
+*.psd
+*.ai

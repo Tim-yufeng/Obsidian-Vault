@@ -1,0 +1,28 @@
+{
+  "file-explorer:new-folder": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
+  ],
+  "obsidian-latex-suite:latex-suite-enable-all-features": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
+  "obsidian-latex-suite:latex-suite-disable-all-features": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ]
+}

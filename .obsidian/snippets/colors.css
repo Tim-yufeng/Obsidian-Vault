@@ -1,0 +1,37 @@
+/* ==========================
+   基础颜色类
+   使用方式: 文字{.red} 
+   ========================== */
+.red { color: red; }
+.blue { color: blue; }
+.green { color: green; }
+.orange { color: orange; }
+.purple { color: purple; }
+.gray { color: gray; }
+.black { color: black; }
+.white { color: white; background-color: black; } /* 黑底白字 */
+
+/* ==========================
+   强调与高亮
+   ========================== */
+.bold { font-weight: bold; }           /* 加粗 */
+.italic { font-style: italic; }        /* 斜体 */
+.underline { text-decoration: underline; } /* 下划线 */
+
+.highlight-yellow { background-color: yellow; }
+.highlight-pink { background-color: pink; }
+.highlight-cyan { background-color: cyan; }
+.highlight-lightgreen { background-color: lightgreen; }
+
+/* ==========================
+   组合样式
+   ========================== */
+.red-bold { color: red; font-weight: bold; }
+.blue-underline { color: blue; text-decoration: underline; }
+.green-highlight { color: green; background-color: lightyellow; font-weight: bold; }
+
+/* ==========================
+   特殊效果
+   ========================== */
+.shadow { text-shadow: 1px 1px 2px gray; }
+.glow { text-shadow: 0 0 5px yellow, 0 0 10px orange; }
