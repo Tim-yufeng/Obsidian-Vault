@@ -222,8 +222,8 @@ $$(A-\lambda \mathbb{1})v^{(2)}=v^{(1)}$$
 
 一个小结论，如果一个特征值 $\lambda$ 相应的 algebraic multiplicity 是 $a_{\lambda}$, geometric multiplicity 是 $\dim V_{\lambda}$ , 那么rank可能需要取的最高次数是 $m:= a_{\lambda}-\dim V_{\lambda}+1$, 于是我们从这个 m 开始：
 $$ (A-\lambda \mathbb{1})^m v=0$$
-$$ (A-\lambda \mathbb{1})^{m-1} v\ne 0$$ 然后 rank=m-1 的广义特征向量可以0通过下式求得：
-$$ v^{m-1}:=(A-\lambda \mathbb{1})v^{(m)}$$
+$$ (A-\lambda \mathbb{1})^{m-1} v\ne 0$$ 然后 rank=m-1 的广义特征向量可以通过下式求得：
+$$ v^{(m-1)}:=(A-\lambda \mathbb{1})v^{(m)}$$
 同样的，$v^{(m-1)}$ 应该满足 $(A-\lambda \mathbb{1})^{m-2} v^{(m-1)}\ne 0$ 
 像这样从上至下，我们可以求出所有广义特征向量：
 ![[Pasted image 20250927170005.png]]

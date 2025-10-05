@@ -8,17 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "08badcf2b3cbf395",
+            "id": "ed766820c658ddfd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2025-09-30.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-09-30"
+              "type": "smart-chat-view",
+              "state": {},
+              "icon": "smart-chat",
+              "title": "Smart Chat"
             }
           }
         ]
@@ -84,8 +80,7 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -124,12 +119,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2025-09-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-09-10"
+              "title": "Outgoing links"
             }
           },
           {
@@ -153,22 +147,40 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2025-09-30.md",
                 "followCursor": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-09-30"
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "b224309b3b8422e5",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
+          },
+          {
+            "id": "1e4c5325b3a032aa",
+            "type": "leaf",
+            "state": {
+              "type": "smart-lookup-view",
+              "state": {},
+              "icon": "search",
+              "title": "Smart Lookup"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,28 +193,33 @@
       "bases:Create new base": false,
       "obsidian-kanban:Create new board": false,
       "templater-obsidian:Templater": false,
-      "periodic-notes:Open this week": false
+      "periodic-notes:Open this week": false,
+      "smart-connections:Open: Smart Chat": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Smart Connections: Open random connection": true
     }
   },
-  "active": "08badcf2b3cbf395",
+  "active": "1e4c5325b3a032aa",
   "lastOpenFiles": [
+    "大二秋/MATH 286.md",
+    "大二秋/ECE 270.md",
     "大二秋/ECE 215.md",
     "Daily Notes/2025-09-30.md",
+    "大二秋/TA/RC 1 (Chapter3).md",
+    "大二秋/TC 300.md",
+    "Daily Notes/2025-09-29.md",
+    "Daily Notes/2025-10-01.md",
+    "Daily Notes/2025-10-02.md",
     "Daily Notes/2025-10-03.md",
+    "Daily Notes/2025-10-04.md",
+    "Daily Notes/2025-10-05.md",
     "obsidian.gitignore",
     "新建 文本文档.gitignore",
     "新建 文本文档.txt",
-    "Daily Notes/2025-10-02.md",
-    "大二秋/MATH 286.md",
     "大二秋/2025 Fall Semester Course Index.md",
-    "大二秋/TA/RC 1 (Chapter3).md",
-    "Daily Notes/2025-10-01.md",
-    "大二秋/ECE 270.md",
     "任务总览.md",
     "Templates/Possible missions.md",
     "大二秋/大物250.md",
-    "大二秋/TC 300.md",
-    "Daily Notes/2025-09-29.md",
     "大二秋/Course images/Pasted image 20250929170817.png",
     "大二秋/Course images/Pasted image 20250929162333.png",
     "Daily Notes/2025-09-28.md",
@@ -225,8 +242,6 @@
     "Daily Notes/2025-09-23.md",
     "TA的自我修养/RC classroom and OH place booking.md",
     "Daily Notes/2025-09-17.md",
-    "Daily Notes/2025-09-20.md",
-    "Templates/科研笔记模板.md",
     "大二秋/Course images",
     "大二秋",
     "TA的自我修养",
