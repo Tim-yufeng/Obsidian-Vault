@@ -254,6 +254,61 @@ that $N^k=0$.
 
  - [x] Assignment 2, ⏫ 📅 2025-10-10 ✅ 2025-10-06
 
+ - [x] Assignment 3, ⏫ 📅 2025-10-10 ✅ 2025-10-7
+# Differential Equation
+## Overview
+想象一个向量场 $F:\mathbb{R}\to \mathbb{R}$, $F(x, y)=\begin{pmatrix}F_{1}(x, y)\\ F_{2}(x, y)\end{pmatrix}$ , 它是一个粒子在二维空间运动的速度场，每个点的向量代表粒子在该位置的速度，现在外面要根据这个速度场求解粒子的轨迹信息。
 
+一种做法是定义轨迹随时间的函数：$\gamma(t)=\begin{pmatrix}\gamma_{1}(t)\\\gamma_{2}(t)\end{pmatrix}=\begin{pmatrix}x(t)\\y(t)\end{pmatrix}$
+于是根据位移和速度的关系，有
+$$
+\frac{dx}{dt}=F_{1}(x, y), \;\frac{dy}{dt}=F_{2}(x, y)
+$$
+但是这个方程组解起来非常困难，（这种无法先单独解出一个方程的方程组称为 “coupled”, 反之称为“decoupled”）
+
+于是为了简化方程，我们将 velocity field 转化成 directional field，就是每个点只保留斜率信息，如下图所示：
+![[Pasted image 20251011142234.png]] 
+我们希望这个方向场 (directional field) 中没有垂直的方向，因为这样所有斜率存在，我们就可以将方向场写作如下形式：
+$$
+G: \mathbb{R}\to \mathbb{R} , \; G(x, y)= \begin{pmatrix}
+1\\f(x, y)
+\end{pmatrix}
+$$
+如此一来，$f(x, y)$ 便直接代表斜率。
+
+有趣的是，我们假设的条件是速度方向场没有垂直的向量，斜率处处存在，这也就意味着，任意符合条件的轨迹也不存在斜率不存在的地方。
+
+于是我们可以运用 Implicit Function Theorem, 将轨迹的 $y$ 用 $x$ 表示，于是：
+$$
+\gamma(x)=\begin{pmatrix}
+x\\y(x)
+\end{pmatrix}
+$$
+$$
+\gamma'(x)=\begin{pmatrix}
+1\\y'(x)
+\end{pmatrix}=\begin{pmatrix}
+1\\f(x, y)
+\end{pmatrix}
+$$
+于是我们得到了：
+$$
+y'(x)=f(x, y)
+$$
+由此可以求解出轨迹方程。
+
+在这个微分方程的简化过程中，我们牺牲掉的是时间方面的信息，原本的方程以时间 $t$ 为变量，可以获取轨迹随时间的变化关系，现在扔掉 $t$ 之后便只有轨迹方程了。
+
+### Terminology
+- ordinary differential equations (ODEs)：常微分方程
+- partial differential equation (PDE)：偏微分方程
+- 一个微分方程的 order 是出现的最高阶导数阶数
+- explicit or implicit equation: 懒得写了看slide吧
+- 微分方程 $y'(x_{0})=f(x, y)$ 的一个 solution：$y: I \to \mathbb{R}^n$ 应该是一个满足方程的连续可导的函数
+- 该微分方程的 general soluiton 则是所有满足该方程的函数的集合
+![[Pasted image 20251011144324.png]] 
+
+
+- [ ] Assignment 4 ⏫ 📅 2025-10-17 
 
 
