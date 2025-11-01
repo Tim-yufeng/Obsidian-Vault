@@ -1,4 +1,11 @@
 {
   "attachmentFolderPath": "大二秋/Course images",
-  "showLineNumber": false
+  "showLineNumber": false,
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

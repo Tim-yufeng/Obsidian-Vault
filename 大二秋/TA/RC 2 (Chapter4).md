@@ -7,7 +7,7 @@ This chapter is divided into three parts, introduced three molecular theory, VSE
  And in VSEPR, multiple bonds have no difference with the single bond. 
  And here, be careful with the difference with the molecular shape and VSEPR electron arrangement. ^^^ So you need to be careful with what the question ask you. 
 ^^^
-Neext concept is generic formula, this is quite easy. It's just a notation of electron arrangement of a molecule. ^^^
+Next concept is generic formula, this is quite easy. It's just a notation of electron arrangement of a molecule. ^^^
 
 This table is very important, I think you'd better copy that in your cheating paper. 
 

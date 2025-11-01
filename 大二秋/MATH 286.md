@@ -19,9 +19,9 @@ Definition{.blue .bold}
 
 （==实际上就是多维情景下对可逆的最朴素认知==）
 
-连续可导的函数集合我们表示为 $C^1(\Omega, Y)$, 类似的，一个连续可导函数$f\in C^1(\Omega, Y)$, 如果在 $\Omega$ 上是可逆的，而且其逆函数 $f^{-1}$ 也是连续可导的，那么我们称 $f$ 是 <span class="red">$C^1-\text{invertible}\;\text{on}\;\Omega$ </span>的。  
+连续可导的函数集合我们表示为 $C^1(\Omega, Y)$, 类似的，一个连续可导函数$f\in C^1(\Omega, Y)$, 如果在 $\Omega$ 上是可逆的，而且其逆函数 $f^{-1}$ 也是连续可导的，那么我们称 $f$ 是 $C^1-\text{invertible}\;\text{on}\;\Omega$ 的。  
 
-类似的， 如果是在一个小开球内满足可逆且逆函数连续可导，就是<span class="red">locally $C^1-\text{invertible}\;\text{on}\;\Omega$ </span>
+类似的， 如果是在一个小开球内满足可逆且逆函数连续可导，就是 locally $C^1-\text{invertible}\;\text{on}\;\Omega$  
 
 Remark:
 - 在区间 $\Omega$ 的每一点处均locally invertible, 不一定在区间 $\Omega$ 上就是invertible 的
@@ -157,8 +157,8 @@ Please just review your 214. {.red .bold}
 2. 286通过讨论”矩阵转置作为一个线性映射，它的特征值和特征向量“这一话题，推导出来任何方阵都可以唯一分解为一个对称矩阵和一个反对称矩阵的和，即
 $$A=\frac{1}{2}(A+A^T)+\frac{1}{2}(A-A^T)$$
 	对称矩阵和反对称矩阵这两个矩阵空间刚好构成直和，维度分别是$\frac{n(n+1)}{2}$和$\frac{n(n-1)}{2}$，加起来就是$n^2$了。（这些我们在214都讨论过）
-3. 不同特征值对应的特征向量相互独立，形成一个independent set, 然后如果一个n 维方阵A恰有n 个各不相同的特征值，那么它就有n 个线性无关的特征向量，然后就可以组一个basis 了； that is to say 这个矩阵的特征空间直和铺满了整个空间.
-4. 一个n 维方阵（or 对应的linear map)最多又n 个 distinct eigenvalues （needless to say)
+3. 不同特征值对应的特征向量相互独立，形成一个independent set, 然后如果一个 n 维方阵A恰有 n 个各不相同的特征值，那么它就有 n 个线性无关的特征向量，然后就可以组一个 basis 了； that is to say 这个矩阵的特征空间直和铺满了整个空间.
+4. 一个n 维方阵（or 对应的linear map)最多有 n 个 distinct eigenvalues （needless to say)
 5. geometric multiplicity (特征空间总维度) $\le$ algebraic multiplicity（特征多项式次数，也即是矩阵边长）
 6. geometric multiplicity=algebraic multiplicity $\Longleftrightarrow$ Diagonalizable
 7. D 代表A对角化后的对角阵，U=($v_1,v_2, \cdots, v_n$)，那么 $A=UDU^{-1}$ or $D=U^{-1}AU$ 
@@ -186,6 +186,7 @@ $$A=\frac{1}{2}(A+A^T)+\frac{1}{2}(A-A^T)$$
 甚至可以更进一步，因为 self-adjoint 的矩阵一定存在一组正交特征向量，所以我们可以找到一组**正交归一的基底**，比如$(v_1, v_2, \cdots, v_n)$，都是它的特征向量，然后将其对角化。
 
 对于 self-adjoint 矩阵 $A$ 的对角化，我们知道有 $D=U^*AU$，其中 $U$ 因为是特征向量基底到原直角坐标系基底的转换矩阵，所以 $U=(v_1, v_2, \cdots, v_n)$, 而$U^*$ 就是 $U$ 的共轭转置矩阵，在实数范围内就是转置。很显然 $U^*$ 和 $U$ 都是正交归一的矩阵。
+（为什么 $U^*AU$ 对角化 $A$ ？注意 $U$ 是一个由正交归一的基底向量组成的矩阵，乘以它的转置，结果一定是单位矩阵，想想看为什么）
 
 于是我们知道，对于 self-adjoint 的矩阵 $A$，一定可以找到一个由其正交归一特征向量组成的矩阵 $U$, 使得通过共轭转置（或转置）变换 $U^*AU$，可以将 $A$ 对角化为一个只包含特征值的对角矩阵 $D$. {.red}
 
@@ -307,8 +308,311 @@ $$
 - 微分方程 $y'(x_{0})=f(x, y)$ 的一个 solution：$y: I \to \mathbb{R}^n$ 应该是一个满足方程的连续可导的函数
 - 该微分方程的 general soluiton 则是所有满足该方程的函数的集合
 ![[Pasted image 20251011144324.png]] 
+## Separable Equations
+分离变量法求解微分方程的原理就是下面这个定理，它是对”擅自分离变量“行为的正规化：
+![[Pasted image 20251015091700.png]]
+这一切的前提是 $g(\eta)\ne 0$, 但是如果等于零了，首先常数函数 $y(x)=\eta$ 是一个解，另外的解取决于 (9.5) 的左边是否存在，如果存在，那么存在另外的解，否则, $y(x)=\eta$ 就是唯一解。
+![[Pasted image 20251015092428.png]]
+
+- [x] Assignment 4 ⏫ 📅 2025-10-17 ✅ 2025-10-15
+## Homogeneous, Linear Equations
+通常来说，一个一阶线性的 ODE 形如：
+$$
+a_{1}(x)y'+a_{0}(x)y=f(x)\;\; x \in I
+$$
+假设 $a_{0}$, $a_{1}$, $f$ 都是连续的实数函数，定义在 $I$
+
+若 $f(x)=0$, 这个等式称为 homogeneous, 否则称为 inhomogeneous
+
+Define the differential operator:
+$$
+L=a_{1}\frac{d}{dx}+a_{0}
+$$
+那么，上式就可以写作:
+$$
+Ly=f
+$$
+类似于线性代数中对线性方程的表述，我们称 $Ly=a_{1}(x)y'+a_{0}(x)y=0$ 是 $Ly=f$ 的 associated homogeneous equation
+和线性方程一样，方程 $Ly=0$ 的不同解的线性组合耶依然是这个方程的解。（这被称为 superposition principle）
+
+同样是线性代数中的做法，对于 $Ly=f$, 可以把它的解写作 $Ly=f$ 的一个特解，和$Ly=0$ 的所有解的线性组合：
+
+![[Pasted image 20251015094011.png]]
+
+以下是一种将一个一般形式的线性微分方程拆解为一个 homogeneous 的和一个 inhomogeneous 的线性微分方程时，它们各自的初始值选取的策略：
+![[Pasted image 20251015095159.png]]
+简单来说，就是 inhomogeneous 的初始值选 0，然后 homogeneous 的初始值选 $\eta$, 这样一来，它们的加和依然满足初始值是 $\eta$
+
+回到 homogeneous 的线性微分方程，这种方程的解法是最简单的，因为可以直接利用 分离变量法，得到：
+
+![[Pasted image 20251015095504.png]]
+
+## Inhomogeneous Equations
+求解 Inhomogeneous Equations 的思路是 ”叠加法“，这个方法要求深入理解等式 $a_{1}(x)y'+a_{0}(x)y=f(x)$ 的物理意义。
+
+首先看齐次线性微分方程 $a_{1}(x)y'+a_{0}(x)y=0$，我们把它写作 $x'(t)+\beta x(t)=0$, 它的物理意义是，想象一堆放射性物质在衰变，满足：
+$$
+x(t)=x(0)\cdot e^{-\beta t} 
+$$
+$x(0)$ 就是初始物质总量
+
+但是现在方程变成 $x'(t)+\beta x(t)=f(t) \implies x'(t)=f(t)-\beta x(t)$ 就是说，除了衰败速率满足和物质总量成正比，系数是 $\beta$, 而且总物质还在从外部源源不断的添加，添加速率就是 $f(t)$ 
+
+我们运用 step function 的思路，将一段时间 (0, t) 划分小格，每个小格宽度是 $\Delta \tau$, 拟合函数 $f(t)$, 像这样：
+![[Pasted image 20251015110154.png]]
+然后在每个时间间隔 $\Delta \tau$ 内，函数值因为看作不变，于是外界给他增加的物质量就是 $f(\tau_{k})\Delta \tau$ , 其中因为 t 用来作为区间的限制了，所以就用 $\tau$ 作为时间变量，然后 $\tau_{k}$ 就是第 k 个时间区间对应的函数值。
+
+新来的物质便随着其它物质一起衰败，于是考虑这些因素，整个物质的变化图应该是这样的（蓝线），可以看到确实拟合了实际的变化曲线（绿线）：
+![[Pasted image 20251015110911.png]]
+注意看，我们用这样一个式子 $x_{\tau}(t)$ 表示 $x'(t)+\beta x(t)=0$ 在 $x(\tau)=1$ 这一初始值条件下的解，那么我们知道，$x_{\tau}(t)=x(\tau)\cdot e^{-\beta (t-\tau)}=e^{-\beta (t-\tau)}, t\geq \tau$ 
+也就是说，如果在时刻 $\tau$ 初始值不是 1，而是 $x(\tau_0)$，那么解就是 
+$x(\tau_{0})\cdot e^{-\beta (t-\tau_{0})}$
+
+那么 $\Delta \tau \cdot f(\tau) \cdot x_{\tau}(t)$ 就应该是 $x(\tau)=\Delta \tau \cdot f(\tau)$ 这一初始值下的解
+
+注意，初始值的物理意义是，衰变物质在反映初始时的总量，在这个问题中，我们假设一开始没有物质，物质是通过函数 $f(t)$ 不断加进去的，于是在每个时间节点 $\tau_{k}$ 的物质量就应该是 $f(\tau_{k})$, 
+那么在每个时间节点 $\tau_{k}$ 的衰变方程的解就应该是：$\Delta \tau \cdot f(\tau_{k}) \cdot x_{\tau}(t)$ 
+于是，上面这个拟合的折线图，任意时间点的物质量就是，所有增加物质的时间节点的衰败方程的累加：
+$$
+x^{(n)}(t)=\sum^n_{k=1}\Delta \tau \cdot f(\tau_{k}) \cdot x_{\tau}(t) 
+$$
+将时间区间无限细分，我们就得到了实际的表达式：
+$$
+x^{(n)}(t)=\int^t_{0}f(\tau) \cdot x_{\tau}(t)\;d\tau = \int_{0}^t f(\tau)\cdot e^{-\beta(t-\tau)} d\tau
+$$
+推广到方程 $a_{1}(x)y'+a_{0}(x)y=f(x)$, 就是 Duhamel's Principle, 如下图：
+![[Pasted image 20251015112754.png]]
+结合上一节说的，一个 inhomogeneous equation 可以分解为 $y_{\text{part}}+y_{\text{homo}}$, 我们可以得到 inhomogeneous equation 的解法公式：
+![[Pasted image 20251018110456.png]]
+![[Pasted image 20251015131806.png]]
+
+梳理一下用 Duhamel's Principle 求解非齐次微分方程的做法，方程是$a_{1}(x)y'+a_{0}y=f(x)$, 初始值是$y(\xi)=\eta$：
+1. 首先，对于方程 $a_{1}(x)y'+a_{0}y=f(x)$, 我们要构造另一个齐次微分方程： $a_{1}(x)y_{\xi}'+a_{0}(x)y_{\xi}=0$, 然后它的初始值是 $y_{\xi}(\xi)=\frac{1}{a_{1}(\xi)}$ 这个方程的解 $y_{\xi}(x)$ 很容易求, 就是
+$$
+y_{\xi}(x)=\frac{1}{a_{1}(\xi)}\exp\left( \int_{\xi}^x - \frac{a_{0}(x)}{a_{1}(x)}dx \right)
+$$
+(嗯如果右边的积分顺利的话，确实不难求)
+2. 现在我们有了 $y_{\xi}(x)$, 这个式子应该是和 $x$, $\xi$ 都有关系的，接下来，外面把它和 $f(\xi)$ 乘起来做积分，积分变量就是 $\xi$, 然后范围由 $x$ 和 $x_{0}$ 决定（其中 $x_{0}$ 就是满足 $f(x_{0})=0$ 的那个 自变量值）
+	这样积分的结果就是 $y_{\text{part}}(x)$
+$$
+y_{\text{part}}(x)=\int_{x_{0}}^x f(\xi)\cdot y_{\xi}(x)=\int_{x_{0}}^x
+\frac{f(\xi)}{a_{1}(\xi)}\cdot\exp\left( \int_{\xi}^x - \frac{a_{0}(x)}{a_{1}(x)}dx\right) d\xi
+$$
+==但是注意了！有趣的是，我们之前说过，可以令非齐次方程的初始值为：$y(\xi)=0$, 齐次方程的初始值为 $y(\xi)=\eta$, 这样它们加在一起初始值仍然满足 $y(\xi)=\eta$! 所以，这里的$x_{0}$ 应该就是 $\xi$==
+
+3. 接下来就是求 $y_{\text{homo}}(x)$ 了，解齐次微分方程：$a_{1}(x)y'+a_{0}y=0$, 初始值是 $y(\xi)=\eta$，结果应当是：
+$$
+y_{\text{homo}}(x)=\eta\cdot \exp\left( \int_{\xi}^x - \frac{a_{0}(x)}{a_{1}(x)}dx \right)
+$$
+4. 最终的结果就是 $y=y_{\text{part}}+y_{\text{homo}}$
+
+<span class="green"> 核心思想是，把每个时间点 t 视为一个单独的以 f(t) 为初始值（初始质量）的演变（衰变）过程，忽略其它部分 f(t) 的作用，然后把所有的时间点叠加起来（进行积分），得到整体的曲线。$\xi$ 代表的就是每个时间点，我们先求的那个函数的意义是，时间点$\xi$ 处，以初始质量为 1 ，演变的曲线，（这样这个函数可以直接乘以 $f(\xi)$ 表示当前的真实初始量。）设置 $y_{\xi}(\xi)=1/a_1(\xi)$, 是因为：我们要构造的方程其实是：$a_1(\xi)y'(\xi)=1-a_1(\xi) y(\xi)$ </span>
 
 
-- [ ] Assignment 4 ⏫ 📅 2025-10-17 
+
+
+
+- [x] 286 HW5 ⏫ 📅 2025-10-24 ✅ 2025-10-25
+## Transformable Equations
+
+## General Integral Curves of First Order ODEs
+对于形如 $h(x, y)y'+g(x, y)=0$ 的微分方程，解这个微分方程可以理解为在向量场 $F(x, y)=c\cdot \begin{pmatrix}-h(x, y)\\g(x, y)\end{pmatrix}$ 中寻找一个 curve：$\gamma(t)=\begin{pmatrix}x(t)\\y(t)\end{pmatrix}$, 与之处处相切。也就是说：
+**Solutions to $h(x, y)y'+g(x, y)=0$ are integral curves of $F(x, y)$.**
+
+$$
+\gamma'(t)=F \circ \gamma(t)
+$$
+可以知道一个和 $F$ 正交的场是：
+$$
+F^{\perp}=\begin{pmatrix}
+F_{2}(x, y)\\-F_{1}(x, y)
+\end{pmatrix}=\begin{pmatrix}
+g(x, y)\\h(x, y)
+\end{pmatrix}
+$$
+![[Pasted image 20251030145002.png]]
+![[Pasted image 20251030144945.png]]
+其中 $c$ 未必是一个常数，也可以是一个关于 $x, y$ 的函数，我们称之为 $M(x, y)$：
+
+![[Pasted image 20251020193640.png]]
+
+恰当的 $M(x, y)$ 要能使得乘以原向量场 $F$ 的一个正交场 $\begin{pmatrix}g(x, y)\\h(x, y)\end{pmatrix}$ 后，得到的 $M(x, y)\cdot \begin{pmatrix}-h(x, y)\\g(x, y)\end{pmatrix}$ 是一个势能场。
+
+回忆 285 中如何实现这一点：一个场 $F$ 成为势能场的必要条件是：$\frac{\partial F_{2}}{\partial x}=\frac{\partial F_{1}}{\partial y}$ 
+那么：
+![[Pasted image 20251020195529.png]]
+这里下角标代表对谁的偏导
+
+我们可以假设 $M(x, y)$ 只和 $x$ 或 $y$ 有关，这样另一个变量的作用可以直接消去，整个等式的求解就简单多了：
+![[Pasted image 20251020195746.png]]
+
+## Introduction to Systems of Equations
+
+首先，为什么要研究微分方程组？因为任何形如 $x^{(n)}=f(x,x',x'',\cdots, x^{(n-1)}, t)$ 的高阶微分方程都可以通过这样的方法解出：
+![[Pasted image 20251020200547.png]]
+
+也就是，通过巧设新的变量 一阶一阶“降维”，可以转化为一个一阶的微分方程组。
+
+求解微分方程组的一种方法是将微分等式改写成积分等式（就是对左右两边积分）：
+![[Pasted image 20251021175314.png]]
+（14.7）的解也必定满足（14.8），相当于（14.8）是必要条件，这两个式子并不等价。
+
+### Picard Iteration
+如何解这个转化来的积分方程？一个重要方法是 Picard Iteration, 简单来说，就是随便找一个满足初始值的函数 $x^{(0)}$，作为 $x(t)$ 的猜测值，通常找 $x^{(0)}(t)=x_{0}$ (直接等于初始值的常函数)
+
+然后代入 (14.8) 右侧，左侧等于下一个猜测值 $x^{(1)}$ , 也就是：
+$$
+x^{(1)}=x_{0}+\int_{t_{0}}^t F(x^{(0)}(s), s)ds
+$$
+不断重复这个步骤，随着 $k\to \infty$ , $x^{(k)}$ 会趋于 $x(t)$ 真实解。
+（**背后的原理就是开头几章涉及的 Contraction Mapping Principle**）
+
+### Theorem of Picard-Lindelöf
+这个定理的作用是判断，像 $\frac{dx}{dt}=F(x, t)$ 这样一个微分方程组，解是否存在且唯一。
+
+定理内容：如果满足 $F$ 是一个连续函数，且满足 Lipschitz estimate：
+![[Pasted image 20251021180643.png]]
+
+那么这个方程组存在唯一的解，在某个包含 $t_{0}$ 的区间内。
+
+<span class='red'>（这里要特别注意，Lipschitz estimate 和一致连续、导数值有界都有区别）：
+它们的严格关系可以描述为：一致连续（最松）> Lipschitz estimate > 导数值有界（最严）
+举例来说，$y=\sqrt{ x }$ 是一致连续的，但是不满足 Lipschitz estimate， $y=|x|$ 满足 Lipschitz estimate，但是不满足导数值有界（不处处可导）</span>
+
+讨论完解的存在和唯一性，接下来要关注解的“稳定性”，即：初始位置的一个小改变，会对解造成多大影响？
+### Gronwall’s Inequality
+这个定理就回答了这个问题，$x(t_{0})=x_{0}, y(t_{0})=y_{0}$ 定义了**同一个微分方程组** $F$ 下的两个**不同初始位置**的解（or 路径）
+那么我们关注，这两条起点不同的路线发展下去，最终会相距多远？
+![[Pasted image 20251021181306.png]]
+
+这个不等式告诉我们，他们的距离 $||x(t)-y(t)||$ 一定会受限于这样一个值，其中包含前面满足 Lipschitz estimate 的 L 值
+
+差点忘说了，这个不等式有一个前提，就是 $F$ 已经满足了前面的 Lipschitz estimate 条件，也就是解已经是存在且唯一的了。
+
+但是我们可以利用这个定理反过来再验证一遍解的唯一性，$x(t)=y(t)$ 时， $||x(t)-y(t)||$ 一定为零，也就是==不可能存在同一起点出发，走出不同路线的可能==。
+
+## Homogeneous, Linear Systems of Equations
+
+首先介绍一下，线性微分方程组的两个分类，一些基本名词：
+![[Pasted image 20251021210945.png]]
+这一节要探讨的是 homogeneous 的线性微分方程组，也就是 $b=0$ 的情形。也就是 $$
+\frac{dx}{dt}=A(t)x 
+$$
+这种方程非常类似线性代数中的线性方程组 $y=Ax$, 它们也共享了解的 Superposition Principle:
+简单来说，就是两个解的线性组合依然是解：
+![[Pasted image 20251021211346.png]]
+
+注意到，方程组 $\frac{dx}{dt}=A(t)x$ 的所有解组成的集合其实是一个 vector space, 我们称之为 solution space（解空间）, 
+==**A set of functions giving a basis of the solution space is called a fundamental system of solutions.**==
+上面这句话说白了就是，fundamental system of solutions (基本解系统) 就是解空间的一组基底，通过线性组合基本解系统，我们可以得到这个微分方程组所有可能的解。
+
+
+简单说说我们到底想干啥：现在我们由这样一个线性微分方程组 $\frac{dx}{dt}=A(t)x$, 它的解是什么还取决于初始条件（位置），我们要找到并刻画这个方程组所有可能的解，于是我们首先找到初始条件的所有可能，也就是初始条件的一个基底（因为初始条件位于一个 n 维空间 $\mathbb{R}^n$ ），然后分别代入方程，求出的解的集合，诶你猜怎么着，就是这个微分方程组的 fundamental system of solutions (基本解系统)
+这就是下面这个 Proposition 想说的：
+![[Pasted image 20251021214321.png]]
+
+理论有了，如何解这个方程组呢？先考虑最简单的情形，homogeneous，而且矩阵 $A$ 是 constant
+$$
+\frac{dx}{dt}=Ax, x(0)=x_{0} 
+$$
+非常非常有意思的是，如果我们像这样定义矩阵的指数幂，那么这个方程组的唯一解可以表示为:
+$$
+x(t)=e^{At}x_{0}
+$$
+用泰勒展开的方式定义矩阵次方：
+![[Pasted image 20251021215325.png]]
+可以证明这个级数是收敛的，而且是 absolutely convergent
+
+那么剩下唯一的难点，就是计算矩阵的 k 次方了，两种情形：
+1. $A$ 可对角化
+2. $A$ 不可对角化
+可对角化的情形很简单，可以得到：
+![[Pasted image 20251021215559.png]]
+
+如果不能对角化那么运用 Jordan Matrix，可以将 $A$ 变成 Jordan normal form:
+![[Pasted image 20251021215843.png]]
+
+结合下面这个例子：
+![[Pasted image 20251021215935.png]]
+
+根据上述的推导，我们可以得到，对于 $A$ 是 constant 的微分方程组，之前的 Proposition 可以改写为：
+![[Pasted image 20251021220534.png]]
+
+事实上，选择这个$e^{At}$ 要乘的基底，有两种方式，一种是 Standard Basis，还有是全体（广义）特征向量组成的基底，后者的好处是可以省去计算矩阵次方时对可逆矩阵的计算：
+![[Pasted image 20251021220824.png]]
+
+## Inhomogeneous, Linear Systems
+
+非齐次的线性方程组，形如 $\frac{dx}{dt}=Ax+b(t), b(t)\ne 0$ 分为两种情形，一种是 $A$ 和 $t$ 无关，是个常数矩阵；另一种是有关。
+### A 是常数
+
+前者的做法比较简单，我们用一个小 trick 对方程进行变换：
+左右同乘 $e^{-At}$:
+$$
+e^{-At}\frac{dx}{dt}=e^{-At}Ax+e^{-At}b(t)
+$$
+我们发现这个式子可以写成：
+$$
+e^{-At}\frac{dx}{dt}-e^{-At}Ax=\frac{d}{dt} (e^{-At}x)=e^{-At}b(t)
+$$
+于是，左右同时积分，可以得到 particular solution $x_{\text{part}}$：
+$$
+x_{\text{part}}(t)=e^{At}\int_{t_{0}}^te^{-As}b(s)ds
+$$
+这个解其实可以看作是对 Duhamel's principle 的方程组拓展；我们由此得到以下定理：
+
+![[Pasted image 20251025132627.png]]
+
+$x(t)=x_{\text{homo}}+x_{\text{part}}$， 没问题吧。
+
+这是由初始值的情况下，如果没有初始值，要求 general solution 呢？
+
+**$x_{\text{homo}}$ 需要用常数进行线性组合，$x_{\text{part}}$ 则基本没变化，写成不定积分即可，甚至不用在末尾加上常数 $C$, 这是因为，作为特殊解，$x_{\text{part}}$ 的职责仅仅是提供一个可以让等式成立的特解，而 generalize 的任务是 $x_{\text{homo}}$ 的组合完成的，换句话说，$x_{\text{homo}}$ 的线性组合已经涵盖了 $x_{\text{part}}$ 末尾常数的情形。**
+
+写成严谨的数学定理：
+![[Pasted image 20251025133302.png]]
+
+可以看到，$x_{\text{homo}}$ 是找了相应的齐次方程组 $\frac{dx}{dt}=Ax$ 的一个基础解系：${x^{(1)}}, x^{(2)},\cdots ,x^{(n)}$, 然后用 n 个常数: $c_{1}, c_{2}, \cdots, c_{n}$ 作为系数线性组合它们。
+
+### A 不是常数
+这种情形下，不能再使用上面的方法，因为 $\frac{d}{dt}e^A(t)=A'(t)e^{A(t)}$ 不再成立。（$A'(t)A(t)\ne A(t)A'(t)$ in general）
+
+为了求解，我们引出 Wronskian （朗斯基行列式）的概念：
+简单来说，对于一个齐次微分方程组 $\frac{dx}{dt}=A(t)x$ , 如果有 ${x^{(1)}}, x^{(2)},\cdots ,x^{(n)}$ 作为它的 n 个解（假设矩阵 $A$ 是 n 维的！）
+那么管这样一个由行列式定义的 $\mathbb{R}\to \mathbb{R}$ 的函数 $W$ 叫这些解的 *Wronskian*:
+$$
+W_{{x^{(1)}},\cdots ,x^{(n)}}(t)=\det({x^{(1)}}, x^{(2)},\cdots ,x^{(n)}) 
+$$
+或者简写为 $W(t)$.
+
+两个重要的结论！
+1. 对于任意 $t$, $W(t)\ne 0$ 当且仅当 ${x^{(1)}}, x^{(2)},\cdots ,x^{(n)}$ independent
+2. $W(t)$ 要么对于任意 $t$ 都不为零，要么全部为零
+
+由此我们知道：
+首先这个结论可以判断一组解是否是线性独立的，只要随便找一个值 $t_{0}$ 看 $W(t_{0})$ 是否为零就行了，因为一个点即可代表全体
+
+其次，$W(t)$ 作为一个一维函数，不可能存在和横轴的 “交点”，要么全部高于或低于横轴，要么就是横轴。
+
+接下来是一个重要的等式, 对于方程 $\frac{dx}{dt}=Ax$ 的朗斯基行列式：
+$$
+\frac{dW}{dt}=\text{tr} A(t) \cdot W 
+$$
+于是我们可以立刻得到：
+$$
+W(t)=W(t_{0})e^{\int_{t_{0}}^t\text{tr}A(s)ds}
+$$
+(这个式子叫：*Abel’s equation for the Wronskian.*)
+
+<span class="red"> 铺垫的差不多了，接下来讲讲怎么用 朗斯基行列式 解非齐次线性微分方程组的： </span>
+这个方法利用了一个很有趣的事实，就是非齐次方程组 $\frac{dx}{dt}=A(t)x+b(t)$ 的 particular solution 可以写作全体齐次方程组的基础解系的“组合”：
+$$
+x_{\text{part}}(t)=c_{1}(t)x^{(1)}(t)+\cdots +c_{n}(t)x^{(n)}(t)
+$$
+我们把这个式子代入回方程组，可以分别解出每个“系数” $c_{1}(t),\cdots,c_{n}(t)$:
+![[Pasted image 20251025142101.png]]
+
+写成数学定理：
+![[Pasted image 20251025142148.png]]
 
 
