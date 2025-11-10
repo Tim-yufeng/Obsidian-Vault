@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "53a427d4f2233688",
+            "id": "441fdda5fe43955b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,21 +22,7 @@
             }
           },
           {
-            "id": "589431a14d1aba66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2025-10-31.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-10-31"
-            }
-          },
-          {
-            "id": "441fdda5fe43955b",
+            "id": "3b2322162f1481a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,8 +34,37 @@
               "icon": "lucide-file",
               "title": "MATH 286"
             }
+          },
+          {
+            "id": "f72908d0ebb6149a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "大二秋/TA/RC 4 (Chapter 9).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RC 4 (Chapter 9)"
+            }
+          },
+          {
+            "id": "d1edf9adbf7d9011",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/2025-11-10.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-11-10"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -112,7 +127,8 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -232,45 +248,44 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "53a427d4f2233688",
+  "active": "d1edf9adbf7d9011",
   "lastOpenFiles": [
-    "Daily Notes/2025-10-31.md",
+    "大二秋/TA/RC 4 (Chapter 9).md",
     "大二秋/ECE 270.md",
-    "Daily Notes/2025-10-30.md",
-    "大二秋/MATH 286.md",
-    "大二秋/大物250.md",
-    "大二秋/Course images/Pasted image 20251030145002.png",
-    "大二秋/Course images/Pasted image 20251030144945.png",
+    "大二秋/Course images/Pasted image 20251110170015.png",
+    "大二秋/Course images/Pasted image 20251110170002.png",
+    "大二秋/Course images/Pasted image 20251110165859.png",
+    "Daily Notes/2025-11-10.md",
+    "Daily Notes/2025-11-09.md",
+    "大二秋/Course images/Pasted image 20251109111011.png",
+    "大二秋/Course images/Pasted image 20251109110815.png",
+    "Daily Notes/2025-11-06.md",
+    "Daily Notes/2025-11-07.md",
+    "Daily Notes/2025-11-08.md",
+    "任务总览.md",
     "大二秋/ECE 215.md",
-    "大二秋/Course images/Pasted image 20251030102757.png",
-    "大二秋/Course images/Pasted image 20251030102711.png",
-    "大二秋/Course images/Pasted image 20251030102551.png",
-    "大二秋/Course images/Pasted image 20251030102128.png",
-    "大二秋/Course images/Pasted image 20251030102041.png",
+    "大二秋/Course images/Pasted image 20251107211439.png",
+    "大二秋/大物250.md",
+    "大二秋/MATH 286.md",
+    "大二秋/Course images/Pasted image 20251107172536.png",
+    "大二秋/Course images/Pasted image 20251107172139.png",
+    "大二秋/Course images/Pasted image 20251107172128.png",
+    "大二秋/Course images/Pasted image 20251107171956.png",
+    "Daily Notes/2025-11-04.md",
+    "Daily Notes/2025-11-03.md",
+    "Daily Notes/2025-11-02.md",
+    "Daily Notes/2025-10-31.md",
+    "Daily Notes/2025-10-30.md",
     "Daily Notes/2025-10-29.md",
     "大二秋/TA/RC 2 (Chapter4).md",
     "大二秋/大物实验.md",
     "大二秋/TC 300.md",
     "Templates/Color template.md",
     "Daily Notes/2025-10-28.md",
-    "大二秋/Course images/Pasted image 20251028205256.png",
-    "大二秋/Course images/Pasted image 20251028204739.png",
-    "大二秋/Course images/Pasted image 20251028204729.png",
     "Untitled.base",
     "Daily Notes/2025-10-26.md",
     "Daily Notes/2025-10-27.md",
-    "任务总览.md",
     "Daily Notes/2025-10-25.md",
-    "Templates/日记模板.md",
-    "Templates/科研笔记模板.md",
-    "Daily Notes/2025-10-24.md",
-    "Daily Notes/2025-10-23.md",
-    "Daily Notes/2025-10-21.md",
-    "Untitled.md",
-    "Daily Notes/2025-10-20.md",
-    "Daily Notes/2025-10-18.md",
-    "Templates/Templates Index.md",
-    "Untitled Kanban.md",
     "obsidian.gitignore",
     "新建 文本文档.gitignore",
     "新建 文本文档.txt",

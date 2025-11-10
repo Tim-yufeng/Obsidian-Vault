@@ -616,3 +616,100 @@ $$
 ![[Pasted image 20251025142148.png]]
 
 
+# Complex Analysis and the Laplace Transform
+
+## Complex Differentiability
+首先定义复数函数的导数，和实数领域的导数定义基本一样：
+![[Pasted image 20251102221425.png]]
+
+由这个定义，可以得到三个复函数的重要性质，这里先剧透一下：
+
+![[Pasted image 20251102221518.png]]
+
+第一个是现阶段可以理解的，已经够炸裂了，对于任何可导的复函数，它一定是无穷阶可导的。
+
+一些定义，如果一个函数在一个开区间 $\Omega \subset \mathbb{C}$ 内的所有点都是 holomorphic, 那么它在这个区间就是 holomorphic 的
+在整个 $\mathbb{C}$ 上均 holomorphic 的函数称为 entire
+
+复函数导数的一些基本性质，主要是实数函数性质的迁移：
+![[Pasted image 20251102221939.png]]
+
+包括链式法则，加法乘法数乘，还有 Landau 展开
+
+一个很重要的点是，$\mathbb{C}\to \mathbb{C}$ 的复函数并不能被等价于 $\mathbb{R}^2\to \mathbb{R}^2$ 的实函数，或者说 $\mathbb{R}^2\to C$ 的函数，对比下面这两个函数：
+其中 $u, v$ 都是 $\mathbb{R}^2\to \mathbb{R}$ 的实数函数，$x,y$ 也都是实数
+![[Pasted image 20251102222250.png]]
+
+前者，也就是复函数，若想 holomorphic，必须满足：
+
+![[Pasted image 20251102222341.png]]
+
+这个式子也可以简写为：$u_{x}=v_{y}, u_{y}=-v_{x}$ 
+
+现在呢我们决定搞点事情，定义两个 operation（算子）：
+
+![[Pasted image 20251102222638.png]]
+
+为什么定义它们？因为它们可以辅助判断是否 holomorphic
+
+有这样一个结论，如果 $f=u+iv: \mathbb{C}\to \mathbb{C}$ 在点 $z\in \mathbb{C}$是 holomorphic 的, 那么：
+$$
+f'(z)=\frac{\partial f}{\partial z}=2\frac{\partial u}{\partial z}  ,\;\;\; \frac{\partial f}{\partial \bar{z}}=0 
+$$
+进一步，如果函数 $u, v$ 的偏导始终存在，而且连续且满足上式，那么复函数 $f$ 就是 holomorphic 的。
+
+就是说，定义这两个算子相当于变换了一次坐标系，将 $x, y$ 坐标系换成了 $z, \bar{z}$ 构成的坐标系，我们不再研究 $x, y$ 的偏导，而是研究 $z, \bar{z}$ 方向的偏导
+
+holomorphic 要求这个复函数只依赖 $z$, 并不依赖 $\bar{z}$ , 任一点 $z$ 处 $\bar{z}$ 方向的偏导都应该是零。
+
+### 复平面中集合的一些定义
+![[Pasted image 20251102223851.png]]
+
+可以看到，open 和 bounded 定义和实数域都是一样的，然后 compact也是一样，因为 $\mathbb{C}$ 是有限维空间，所以 bounded+closed 直接等价于 compact
+
+比较特殊的是 disconnected 和 connected 的概念，其实还是挺直观的，一个集合 $\Omega$ 的两个子集如果能完全覆盖 $\Omega$, 但是又是没有交集的，那么 $\Omega$ 就是空间上看被分割成两块的，也就是 disconnected.
+然后 connected 的定义是经典的 “定义好一个然后取反”，就是“非 disconnected 即 connected”，不过关于 connected 还是有一条等价性判定的，就是集合内任意两点存在一条 curve 连接它们。
+
+open + connected 的集合称为 a region or a domain
+
+![[Pasted image 20251102223905.png]]
+这是定义一个类似于描述一个复数域集合的大小的量，通过描述集合内点“最远能相距多远”；然后还有一个相关的结论：简单来说，如果无限个集合一一嵌套，且按照这个定义“大小”趋于零，那么最后一定会收敛到一个点，这个点包含在所有这串集合内
+
+复数的 Power series 结论和实数基本一样：
+![[Pasted image 20251102224222.png]]
+
+但是请复习 186，还记得 disc of convergence 怎么算吗
+
+![[Pasted image 20251102224316.png]]
+
+![[Pasted image 20251102224353.png]]
+
+一个复函数 $f$ 在点 $z_{0}$ 是 analytic 的，如果存在一个 power series $\sum_{n=0}^{\infty}a_{n}(z-z_{0})^n$ centered at $z_{0}$, 存在一个正的收敛半径，而且在 $z_{0}$ 周围一个邻域内完全贴合 $f$ 
+如果存在这样一个 power series 在整个 $\Omega$ 上都拟合 $f$, 那么称 $f$ is analytic on $\Omega$
+
+### 复平面的 curve 
+
+这是复平面中 curve 的定义：
+![[Pasted image 20251106142205.png]]
+
+类似于我们在285中对一个实平面做的那样，可以定义复平面上的curve积分：
+![[Pasted image 20251106142358.png]]
+
+甚至还可以定义curve的长度，就是对 1 积分：
+![[Pasted image 20251106142505.png]]
+
+和实数函数的微积分一样，定义复函数的原函数概念：
+![[Pasted image 20251106142616.png]]
+
+由此可以得到一个定理，简单来说就是，就是一个连续的复函数如果有原函数，那么它在复平面上沿着任意一条曲线的积分结果只和始末状态有关：
+
+![[Pasted image 20251106143214.png]]
+
+这条定理是复分析中的基本定理，完全可以类比于实函数微积分中的牛顿-莱布尼茨公式。
+
+由此我们可以立刻得到，对于一个连续且有原函数的函数 $f$, 它对于一条闭合曲线的积分一定是 0
+
+以及得到另一个结论，就是对于一个 holomorphic 的复函数 $f$， 如果 $f'=0$, 那么 $f$ 一定是常数函数。（因为 $\Omega$ 内任意两个点，都可以证明他们的 $f$ 值相等）
+
+一个有趣的事实，就是 $f(z)=\frac{1}{z}$ 是 $f(z)=z^{-n}， n=1, 2, 3 \cdots$ 系列函数中==唯一一个没有原函数的==
+![[Pasted image 20251106143740.png]]
