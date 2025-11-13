@@ -667,7 +667,7 @@ holomorphic 要求这个复函数只依赖 $z$, 并不依赖 $\bar{z}$ , 任一�
 
 可以看到，open 和 bounded 定义和实数域都是一样的，然后 compact也是一样，因为 $\mathbb{C}$ 是有限维空间，所以 bounded+closed 直接等价于 compact
 
-比较特殊的是 disconnected 和 connected 的概念，其实还是挺直观的，一个集合 $\Omega$ 的两个子集如果能完全覆盖 $\Omega$, 但是又是没有交集的，那么 $\Omega$ 就是空间上看被分割成两块的，也就是 disconnected.
+比较特殊的是 disconnected 和 connected 的概念，其实还是挺直观的，一个集合 $\Omega$ 的两个全开或全闭子集如果能完全覆盖 $\Omega$, 但是又是没有交集的，那么 $\Omega$ 就是空间上看被分割成两块的，也就是 disconnected.
 然后 connected 的定义是经典的 “定义好一个然后取反”，就是“非 disconnected 即 connected”，不过关于 connected 还是有一条等价性判定的，就是集合内任意两点存在一条 curve 连接它们。
 
 open + connected 的集合称为 a region or a domain
@@ -697,6 +697,7 @@ open + connected 的集合称为 a region or a domain
 
 甚至还可以定义curve的长度，就是对 1 积分：
 ![[Pasted image 20251106142505.png]]
+对应实函数的积分里的那个 bounded 定理
 
 和实数函数的微积分一样，定义复函数的原函数概念：
 ![[Pasted image 20251106142616.png]]
@@ -713,3 +714,29 @@ open + connected 的集合称为 a region or a domain
 
 一个有趣的事实，就是 $f(z)=\frac{1}{z}$ 是 $f(z)=z^{-n}， n=1, 2, 3 \cdots$ 系列函数中==唯一一个没有原函数的==
 ![[Pasted image 20251106143740.png]]
+
+## Properties of Holomorphic Functions
+在前一章有一个结论，一个复函数如果连续且存在原函数，那么它的积分具有路径无关性；在这一章我们要做的是，证明这个结论对于所有全纯的函数都成立，即：**一个在区域上全纯（holomorphic）的函数，其积分与路径无关，且在任意闭合路径上的积分为零** 
+
+进一步引出 Cauchy's Theorem 和 Cauchy's Intergral Formula. 由此证明全纯函数都是 anlytic 的（可以展开为幂级数），从而揭示复函数的 holomorphic 和 analytic 是等价的
+
+首先是 Goursat's Theorem：
+![[Pasted image 20251111155344.png]]
+
+这个定理告诉我们，**如果一个函数在某个区域上全纯，那么它在该区域内的任意三角形边界上的积分为零**
+由这个定理，可以很容易推知，全纯函数在任意矩形边界的积分也是零
+
+接下来的定理是：局部原函数存在定理，简单来说就是**如果一个函数在某个开圆盘上全纯，那么它在该圆盘上存在一个原函数**
+
+![[Pasted image 20251111155729.png]]
+**这一阶段将“积分零”与“存在原函数”联系起来**。这是从Goursat定理到柯西定理的关键桥梁。
+由此我们得到 Cauchy's Theorem: ==在一个开圆盘上全纯的函数，在这个开圆盘上的任意闭合曲线积分为零==
+
+![[Pasted image 20251111160514.png]]
+
+![[Pasted image 20251111160859.png]]
+
+Corollary 20.5 的结论不只是圆盘，可以拓展到其它各种 curve：
+
+![[Pasted image 20251111163343.png]]
+
