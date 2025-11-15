@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,8 +141,7 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -262,8 +261,9 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "b5bc5b6231c2da6f",
+  "active": "d5cc20280929ac1c",
   "lastOpenFiles": [
+    "大二秋/大物250.md",
     "大二秋/Course images/Pasted image 20251115174449.png",
     "大二秋/Course images/Pasted image 20251115174400.png",
     "大二秋/Course images/Pasted image 20251115174238.png",
@@ -274,7 +274,6 @@
     "大二秋/Course images/Pasted image 20251115173835.png",
     "大二秋/Course images/Pasted image 20251115173608.png",
     "大二秋/Course images/Pasted image 20251115173433.png",
-    "大二秋/Course images/Pasted image 20251115173415.png",
     "Daily Notes/2025-11-15.md",
     "Daily Notes/2025-11-14.md",
     "TA的自我修养/RC classroom and OH place booking.md",
@@ -284,7 +283,6 @@
     "大二秋/ECE 215.md",
     "Daily Notes/2025-11-10.md",
     "大二秋/TA/RC 4 (Chapter 9).md",
-    "大二秋/大物250.md",
     "大二秋/ECE 270.md",
     "Daily Notes/2025-11-09.md",
     "Daily Notes/2025-11-06.md",
