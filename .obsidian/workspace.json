@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2025-11-15.md",
+                "file": "大二秋/ECE 215.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-11-15"
+              "title": "ECE 215"
             }
           },
           {
@@ -145,7 +145,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4aecc4bad07f5047",
@@ -263,6 +264,12 @@
   },
   "active": "d5cc20280929ac1c",
   "lastOpenFiles": [
+    "大二秋/Course images/Pasted image 20251115225111.png",
+    "大二秋/Course images/Pasted image 20251115225059.png",
+    "大二秋/Course images/Pasted image 20251115225002.png",
+    "Daily Notes/2025-11-15.md",
+    "Untitled.canvas",
+    "2025-W46.md",
     "大二秋/大物250.md",
     "大二秋/Course images/Pasted image 20251115174449.png",
     "大二秋/Course images/Pasted image 20251115174400.png",
@@ -272,9 +279,6 @@
     "大二秋/Course images/Pasted image 20251115174221.png",
     "大二秋/Course images/Pasted image 20251115174155.png",
     "大二秋/Course images/Pasted image 20251115173835.png",
-    "大二秋/Course images/Pasted image 20251115173608.png",
-    "大二秋/Course images/Pasted image 20251115173433.png",
-    "Daily Notes/2025-11-15.md",
     "Daily Notes/2025-11-14.md",
     "TA的自我修养/RC classroom and OH place booking.md",
     "Templates/科研笔记模板.md",
@@ -297,7 +301,6 @@
     "Daily Notes/2025-10-29.md",
     "大二秋/TA/RC 2 (Chapter4).md",
     "大二秋/大物实验.md",
-    "大二秋/TC 300.md",
     "Untitled.base",
     "obsidian.gitignore",
     "新建 文本文档.gitignore",
@@ -307,7 +310,6 @@
     "大二秋/Course images",
     "大二秋",
     "TA的自我修养",
-    "Testing Multi-subjects",
-    "Untitled.canvas"
+    "Testing Multi-subjects"
   ]
 }
