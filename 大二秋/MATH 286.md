@@ -806,5 +806,167 @@ $$
 
 而仅仅由这个定义，我们能找到 $f$ 的解析延拓，却不能保证这个延拓函数 $g$ 是唯一的，如果要求唯一性，根据唯一性定理，需要集合 $M$ 包含 accumulation point
 
+## Singularities and Poles
+
+Singularities, 简单来说就是使得一个函数不全纯的点，是一个复函数”不完美“的地方：
+![[Pasted image 20251117140722.png]]
+
+可以分为三类：removable singularities, poles, essential singularities
+
+简单来说：
+- removable：如果可以被一个唯一函数解析延拓；
+- pole：如果该函数的倒数 $g=\frac{1}{f}$ 在**除这一点处**是全纯的，而且函数 $g$ 在这一点处可以被解析延拓，并满足延拓后该点的值是 0；
+- essential：前两个都不是
+
+![[Pasted image 20251117150346.png]]
+
+本节我们主要研究的是 poles
+
+首先我们引出一个初中就能理解的、类似于因式分解思想的定理：
+如果一个全纯的复函数 $f$, 满足在某一点 $z_{0}$ 等于零，且不在整个定义域全是零，那么 在点 $z_{0}$ 周围的某个区间 $U\subset \Omega$ , 存在一个非零的全纯函数 $g$
+满足：
+$$
+f(z)=(z-z_{0})^n g(z)
+$$
+且这个 n 是唯一的
+![[Pasted image 20251117151059.png]]
+
+这个 n 我们称之为 multiplicity 或 order of the zero of $f$
+
+如果 n=1, 称 zero is simple
+
+不难联系刚刚引出的 pole 定义，如果 $f$ 在点 $z_{0}$ 是一个 pole，那么存在一个全纯函数，是 $f^{-1}$ 的解析延拓，延拓后的函数在该点处为零
+那么存在一个唯一的正整数 n, 和非零全纯函数 $h$ ：
+$$
+f(z)=(z-z_{0})^{-n}h(z)
+$$
+这个 n 我们称之为：the multiplicity or order of the pole of $f$
+n=1 就是 simple 的
+
+接下来是一个很重要的定理：
+
+![[Pasted image 20251117152532.png]]
+如何理解它？根据前面一个定理 $f(z)=(z-z_{0})^{-n}h(z)$, 有
+$$
+h(z)=(z-z_{0})^{n}f(z)
+$$
+同时对于全纯函数 $h$, 我们可以将其解析表达：
+$$
+h(z)=\sum_{m=0}^\infty b_{m}(z-z_{0})^m
+$$
+于是让 $a_{-k}=b_{n-k}, k=1, 2 \cdots, n$ , 
+$$
+G(z)=\sum_{m=0}^\infty b_{n+m}(z-z_{0})^m
+$$
+我们就得到了定理的那个表达式
+
+这个定理中， $G(z)$ 前面那一串分数项，我们称之为 函数 $f$ 在 pole $z_{0}$ 处的 principal part
+
+<span class="green"> 有意思的是，对于存在多个 pole 点的函数，我们在每个 pole点附近的区域都能找到一个如上展示的 分式项+一个无穷幂级数 的形式，而后面的无穷幂级数收敛的区域，也就是整个拟合有效的区域，恰恰是区域 U 的最大范围，可以发现，不同 pole 点收敛区域是不会重叠的 </span>
+
+![[Pasted image 20251117154039.png]]
+![[Pasted image 20251117154054.png]]
+
+在上述表达式中，有一项最为特殊，就是 $\frac{a_{-1}}{z-z_{0}}$
+它的系数 $a_{-1}$ 称为 residue of f at the pole $z_{0}$:
+
+![[Pasted image 20251117154248.png]]
+
+之所以特殊，因为只有它没有原函数，我们前面说过；更有趣的是，如果我们对整个函数 $f$ 沿着一个闭合 contour 积分，除了 $\frac{a_{-1}}{z-z_{0}}$m以外其他项因为存在 primitive，全部变成零，最终对这一项的积分结果竟然就是 $a_{-1}$! 
+![[Pasted image 20251117155443.png]]
+
+接下来我们考虑如何求这个神奇的 residue，我们希望找到一个方法，不用把整个展开的表达式求出来就能算出 residue；
+如果该 pole 的order是1（simple pole），那么很简单：
+![[Pasted image 20251117200425.png]]
+
+如果不是，我们首先给 $f$ 乘上 $(z-z_{0})^n$，然后连求 n-1 次导数，然后让极限趋于 $z_{0}$, 最后除以 $(n-1)!$
+
+![[Pasted image 20251117200600.png]]
+（证明照着计算的顺序走，不难理解）
+## Residue Calculus
+
+首先是 Residue Theorem（留数定理）其实根据上一章的公式 (21.9)已经可以直接推出：
+![[Pasted image 20251117220500.png]]
+
+包含一个极点的积分等于 $2\pi i$ 乘以 residue，包含多个极点就是把 residue 都加起来：
+![[Pasted image 20251117220558.png]]
+
+### The Complex Logarithm
+我们希望将实数函数的对数函数推广到复数域，但是我们知道，复数域中不存在一个函数是 1/z 的原函数，所以无法直接推广。
+
+我们可以在一个单连通（simply connected）的开集上定义复对数，这个集合 $\Omega$ 必须满足两个条件：
+1. 包含点 1
+2. 不包含原点 0
+然后定义公式：
+$$
+\ln z=\int_{C} \frac{dz}{z}
+$$
+其中 $C$ 是连接 1 和 z 的任意一条简单曲线，且整条曲线都位于 $\Omega$ 内
+
+因为 $\Omega$ 单连通，而且 1/z 在 $\Omega$ 上全纯 （此时 $\Omega$ 不包含 0），所以积分值不依赖路径，确保了这个定义的唯一性，答案的唯一性
+同时满足 $\ln 1=0$，符合实数对数
+
+<span class="green">  我们通过限制定义域 Ω，从而“切断”了复平面上围绕原点的闭合路径，避免了多值性问题。 </span>
+
+选择一个特定的单连通区域：$\Omega=\mathbb{C}\setminus \{x \in \mathbb{R}:x\leq 0\}$
+就是复平面上挖去 $x\leq_{0}$ 那一条射线，得到的区域称为割平面，它在负实轴上被“割开”了
+
+- 在这个定义域内，复数 $z=re^{i\varphi}$ 的辐角 $\varphi$ 被限制在 $(-\pi,\pi)$ 范围内。
+- 因此，对数函数被定义为：$\ln z=\ln r+i\varphi \;(r>0,-\pi<\varphi<\pi)$ 
+- 这个特定的分支被称为**主支**（principal branch）
+
+![[Pasted image 20251118093838.png]]
+![[Pasted image 20251118093854.png]]
+
+要注意的是，在 principal branch 中，$\ln(z_{1}z_{2})\neq \ln z_{1}+\ln z_{2}$
+
+甚至可以定义复数指数：
+![[Pasted image 20251118094127.png]]
+
+## From Heaviside Operator to Laplace Transformation
+
+首先引入一个叫 Heaviside function 的函数，可以用来描述电路的 "switched on"，我们在 215 也见过它：
+![[Pasted image 20251118164419.png]]
+
+Heaviside 方法的核心是，将难以参与代数运算的微分运算变成我们熟悉的数乘，而 Laplace Transformation 是对 Heaviside 方法的合法化
+
+我们希望找到一种 transformation，使得转换后，微分可以变成乘以一个数 $D$:
+![[Pasted image 20251118164652.png]]
+
+我们规定这种变换要满足两个条件，首先是线性性（类似对函数的线性组合），还有是“微分相当于数乘”，至于后面为什么有个 $+f(0)$, 纯粹是人为规定，便于与 Laplace Transformation 接轨
+
+![[Pasted image 20251118164823.png]]
+
+同样是人为规定的是，我们希望这个数乘的数 $D$, 不是别的，就是当前的变量 $p$，也就是：
+$$
+D\{f\}(p)=p\cdot\{f\}(p)
+$$
+于是：
+$$
+\{f'\}(p)=p\cdot\{f\}(p)-f(0)
+$$
+$$
+p\cdot\{f\}(p)=\{f'\}(p)+f(0)
+$$
+最终发现，满足这些条件的唯一变换是：
+$$
+\{f\}(p)=\int_{0}^{\infty}e^{-pt}f(t)dt
+$$
+这就是 Laplace Transformation
+
+Laplace Transformation的严格引入如下，随之还有 locally integrable 的定义，是对于定义域上任意一个紧致子集都可积
+
+![[Pasted image 20251118165616.png]]
+
+注意Laplace变换成立必须满足的条件
+
+Laplace Transformation 在解决有初始值的特解问题比较容易，但是不善于解决没有初始值的通解问题
+
+**如何根据变换后的函数反推变换前**：
+
+![[Pasted image 20251118170026.png]]
+
+![[Pasted image 20251118170047.png]]
+![[Pasted image 20251118170103.png]]
 
 
