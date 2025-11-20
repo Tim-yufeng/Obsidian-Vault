@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6f5530fe4dc3b79d",
+        "id": "56c0fda5404ccf8f",
         "type": "tabs",
         "children": [
           {
-            "id": "61b9df16c69b06be",
+            "id": "0ac986fef7498494",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大二秋/ECE 215.md",
+                "file": "大二秋/MATH 286.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ECE 215"
+              "title": "MATH 286"
             }
           }
         ]
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "大二秋/ECE 215.md",
+            "file": "大二秋/MATH 286.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -169,23 +169,30 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "61b9df16c69b06be",
+  "active": "0ac986fef7498494",
   "lastOpenFiles": [
-    "大二秋/Course images/Pasted image 20251115174449.png",
-    "大二秋/Course images/Pasted image 20251115174400.png",
-    "大二秋/Course images/Pasted image 20251115174238.png",
-    "大二秋/Course images/Pasted image 20251115174231.png",
-    "大二秋/Course images/Pasted image 20251115174227.png",
-    "大二秋/Course images/Pasted image 20251115174221.png",
-    "大二秋/Course images/Pasted image 20251115174155.png",
-    "大二秋/Course images/Pasted image 20251115173835.png",
-    "大二秋/Course images/Pasted image 20251115173608.png",
-    "大二秋/Course images/Pasted image 20251115173433.png",
-    "大二秋/Course images/Pasted image 20251115173415.png",
+    "大二秋/Course images/Pasted image 20251118170103.png",
+    "大二秋/Course images/Pasted image 20251118170047.png",
+    "大二秋/Course images/Pasted image 20251118170026.png",
+    "大二秋/Course images/Pasted image 20251118165616.png",
+    "大二秋/Course images/Pasted image 20251118164823.png",
+    "大二秋/Course images/Pasted image 20251118164652.png",
+    "大二秋/Course images/Pasted image 20251118164419.png",
+    "大二秋/Course images/Pasted image 20251118094127.png",
+    "大二秋/Course images/Pasted image 20251118093854.png",
+    "大二秋/Course images/Pasted image 20251118093838.png",
+    "大二秋/Course images/Pasted image 20251117220558.png",
+    "Untitled.base",
+    "Untitled Kanban 2.md",
+    "Daily Notes/2025-11-18.md",
+    "Daily Notes/2025-11-17.md",
+    "Daily Notes/2025-11-16.md",
+    "大二秋/MATH 286.md",
+    "大二秋/ECE 215.md",
+    "大二秋/大物250.md",
     "Daily Notes/2025-11-15.md",
     "Daily Notes/2025-11-14.md",
     "Untitled.canvas",
-    "大二秋/大物250.md",
     "Untitled.md",
     "_Home.md",
     "2025-W46.md",
