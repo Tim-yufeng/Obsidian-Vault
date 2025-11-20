@@ -968,7 +968,7 @@ Laplace Transformation的严格引入如下，随之还有 locally integrable �
 
 Laplace Transformation 在解决有初始值的特解问题比较容易，但是不善于解决没有初始值的通解问题
 
-**如何根据变换后的函数反推变换前**：[]()
+**如何根据变换后的函数反推变换前**：
 
 ![[Pasted image 20251118170026.png]]
 
