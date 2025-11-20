@@ -963,6 +963,8 @@ Laplace Transformation的严格引入如下，随之还有 locally integrable �
 
 ![[Pasted image 20251118165616.png]]
 
+注意Laplace变换成立必须满足的条件，如何理解这个条件？因为Laplace Transformation 中有一项是 $e^{-pt}$, $p$ 是自变量，为了避免这个积分发散，我们需要这个 $e^{-pt}$ 能始终“压住” $f(t)$, 而让自变量 $p$ 满足这样一个区间条件，在该区间内，$f(t)$ 的增长速度不会显著大于指数函数
+
 
 Laplace Transformation 在解决有初始值的特解问题比较容易，但是不善于解决没有初始值的通解问题
 
