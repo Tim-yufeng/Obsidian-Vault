@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大二秋/大物250.md",
+                "file": "大二秋/ECE 215.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "大物250"
+              "title": "ECE 215"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2025-11-21.md",
+                "file": "Daily Notes/2025-11-22.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-11-21"
+              "title": "2025-11-22"
             }
           }
         ],
@@ -113,8 +113,7 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -236,13 +235,16 @@
   },
   "active": "444f436640f5df07",
   "lastOpenFiles": [
+    "Daily Notes/2025-11-22.md",
+    "大二秋/MATH 286.md",
+    "大二秋/ECE 215.md",
+    "大二秋/ECE 270.md",
+    "大二秋/大物250.md",
+    "Daily Notes/2025-11-21.md",
     "大二秋/Course images/Pasted image 20251121191300.png",
     "大二秋/Course images/Pasted image 20251121190908.png",
-    "Daily Notes/2025-11-21.md",
-    "大二秋/MATH 286.md",
     "Daily Notes/2025-11-20.md",
     "Daily Notes/2025-11-19.md",
-    "大二秋/ECE 215.md",
     "大二秋/Course images/Pasted image 20251118170103.png",
     "大二秋/Course images/Pasted image 20251118170047.png",
     "大二秋/Course images/Pasted image 20251118170026.png",
@@ -250,15 +252,12 @@
     "大二秋/Course images/Pasted image 20251118164823.png",
     "大二秋/Course images/Pasted image 20251118164652.png",
     "大二秋/Course images/Pasted image 20251118164419.png",
-    "大二秋/大物250.md",
-    "大二秋/ECE 270.md",
     "Untitled 1.canvas",
     "Untitled Kanban 2.md",
     "Untitled.base",
     "Daily Notes/2025-11-18.md",
     "Daily Notes/2025-11-17.md",
     "大二秋/Course images/Pasted image 20251118094127.png",
-    "大二秋/Course images/Pasted image 20251118093854.png",
     "Daily Notes/2025-11-16.md",
     "Daily Notes/2025-11-15.md",
     "Untitled.canvas",
