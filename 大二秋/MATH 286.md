@@ -988,6 +988,110 @@ Laplce 方法的一个优势是，它可以求解包含不连续部分的微分�
 这就是一个转换不连续函数为Heaviside function 的典型例子：
 ![[Pasted image 20251121191300.png]]
 
+## Analyticity and Inversion of the Laplace Transform
+
+我们将 Laplace Transformation 的方法推广到复数域：
+$$
+F(z)=(\mathcal{L}f)(z),\;\; z=p+iq\in \mathbb{C}
+$$
+根据Laplace变化成立的条件，我们需要 $z$ 的实部满足限制，即 $\mathrm{Re}(z)>\beta$
+
+$F(z)=(\mathcal{L}f)(z)$ 在满足条件的区域，即$\mathrm{Re}(z)>\beta$区域是完全收敛的，$e^{zt}$ 也是可微的，于是在该区域 $F$ 就是全纯的。
+进一步，如果 $F$ 存在极点(poles), 那么一定是在 $\mathrm{Re}(z)\leq\beta$ 的区域
+
+但是在$\mathrm{Re}(z)>\beta$的区域，也许原Laplace不收敛，而复函数还是可以定义的，于是我们可以用收敛区域的复函数来定义未收敛区域的Laplace函数值，进而实现了一个解析延拓。
+
+### The Bromwich Integral
+
+![[Pasted image 20251123110505.png]]
+
+注意在 t>0 和 t<0 的部分我们用不同的半圆弧来计算，目的是为了圆弧部分能在半径趋于无穷的时候成功收敛到零：
+<p align="center">
+  <img src="Pasted image 20251123110645.png" width="320"/>
+  <img src="Pasted image 20251123110706.png" width="320"/>
+</p>
+事实上，这个积分的求解结果正是Laplace变换的逆变换：
+
+![[Pasted image 20251123110840.png]]
+
+## A Convolution Product, Impulses, Green Functions
+
+### Convolution（卷积）
+定义两个函数间的运算：
+$$
+(f*g)(t)=\int_{0}^tf(t-s)g(s)ds
+$$
+称为 convolution of $f$ and $g$
+
+不难发现这种运算满足交换律，结合律和分配律
+
+它和Laplace变换的联系就是，两个函数卷积的Laplace变换，等于各自Laplace变换的乘积：
+$$
+\mathcal{L}(f*g)=(\mathcal{L}f)\cdot (\mathcal{L}g)
+$$
+这种运算有时候能帮助我们求解一些Laplace变换的逆变换，比如下面这个例子：
+![[Pasted image 20251123111628.png]]
+（将目标变换后的函数分解成两个已知如何变回去的函数乘积，然后做它们原函数的卷积）
+
+### Green's Function and Impulses
+
+考虑一个线性二阶非齐次常微分方程：
+$$
+ay''+by'+cy=f(t)
+$$
+初始值：$y(0)=y_{0}, \;y'(0)=y_{1}$
+我们关心它的特解 $y_{\text{part}}$
+根据Laplace变换，可以得到这样一个结论 (推导见Slide 548-550)：
+$$
+y_{\text{part}}=f*g(t)
+$$
+其中 $g(t)$ 满足 
+$$
+\mathcal{L}g(p)=\frac{1}{ap^2+bp+c}
+$$
+![[Pasted image 20251123112402.png]]
+
+Impulse 不是一个真正的函数，但是具有很多函数的特征，为了方便表示，我们常常把它当作一个函数对待，比如物理学家定义其为 Delta Function: $\delta(t)$, 
+含义是在 $t$ 时刻对系统的一个冲激作用，作用时间趋于零，作用力趋于无穷大，但是总冲量是 1. 
+
+一个很重要的结论是, 该系统的 Green's Function 和某时刻 Impulse 的卷积，结果就是该时刻的 Green's Function 函数值：
+$$
+g*\delta(t)=g(t)
+$$
+而我们知道，系统对外界作用 $f$ 的相应是 $y_{\text{part}}=f*g(t)$, 所以系统对于 $t$ 时刻的一个冲激 $\delta(t)$ 的相应响应就是 Green's Function $g(t)$
+因此，Green's Function 也被称为 impulse response of the physical system.
+
+$\delta$ 的Laplace变换就是 1：
+$$
+(\mathcal{L}\delta)(p)=\int_{0}^\infty e^{-pt}\delta(t)dt=e^{-pt}|_{t=0}=1
+$$
+![[Pasted image 20251123134634.png]]
+
+## The Fourier Transform
+
+首先是 傅里叶变换的计算公式：
+![[Pasted image 20251123134756.png]]
+（在$f$ absolutely integrable 的时候才存在，以确保变换结果收敛存在）
+
+在形式上，傅里叶变换很像拉普拉斯变换，主要区别是：
+1. 积分范围是整个 $\mathbb{R}$, 而拉普拉斯变换是 $[0, \infty)$
+2. 指数项多了一个 $i$, 使得这个变换后的函数具有振荡性
+
+### Fourier Transformation的一些基本性质
+
+1. ![[Pasted image 20251123135240.png]]
+2. 
+$$
+\widehat{{(f')}}(\xi)=i\xi \cdot\widehat{f}(\xi)
+$$
+$$
+\frac{d}{d\xi} \widehat{f}(\xi)=\widehat{(-ixf)}(\xi)
+$$
+一个特殊的函数：$f(x)=e^{-x^{2}/2}$, 它的傅里叶变换是自身，即$\widehat{f}=f$
+
+给无穷处的衰减速率定义一系列“分级”：
+![[Pasted image 20251123140443.png]]
+
 
 
 
