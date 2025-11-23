@@ -63,8 +63,7 @@
               "title": "大物250"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,8 +126,7 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -228,7 +226,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,14 +246,14 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "b224309b3b8422e5",
+  "active": "441fdda5fe43955b",
   "lastOpenFiles": [
-    "Daily Notes/2025-11-22.md",
+    "大二秋/MATH 286.md",
     "Daily Notes/2025-11-23.md",
+    "大二秋/ECE 215.md",
+    "Daily Notes/2025-11-22.md",
     "任务总览.md",
     "大二秋/大物250.md",
-    "大二秋/ECE 215.md",
-    "大二秋/MATH 286.md",
     "大二秋/Course images/Pasted image 20251123140443.png",
     "大二秋/Course images/Pasted image 20251123135240.png",
     "大二秋/Course images/Pasted image 20251123134756.png",
