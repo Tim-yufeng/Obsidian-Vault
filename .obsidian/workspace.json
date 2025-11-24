@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2025-11-23.md",
+                "file": "Daily Notes/2025-11-24.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-11-23"
+              "title": "2025-11-24"
             }
           },
           {
@@ -63,7 +63,8 @@
               "title": "大物250"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,11 +127,13 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4aecc4bad07f5047",
@@ -246,11 +249,12 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "441fdda5fe43955b",
+  "active": "444f436640f5df07",
   "lastOpenFiles": [
-    "大二秋/MATH 286.md",
+    "Daily Notes/2025-11-24.md",
     "Daily Notes/2025-11-23.md",
     "大二秋/ECE 215.md",
+    "大二秋/MATH 286.md",
     "Daily Notes/2025-11-22.md",
     "任务总览.md",
     "大二秋/大物250.md",
@@ -286,7 +290,6 @@
     "Daily Notes/2025-11-09.md",
     "Daily Notes/2025-11-06.md",
     "Daily Notes/2025-11-07.md",
-    "Daily Notes/2025-11-08.md",
     "obsidian.gitignore",
     "新建 文本文档.gitignore",
     "新建 文本文档.txt",
