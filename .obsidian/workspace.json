@@ -63,8 +63,7 @@
               "title": "大物250"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -249,12 +248,19 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "444f436640f5df07",
+  "active": "441fdda5fe43955b",
   "lastOpenFiles": [
+    "大二秋/Course images/Pasted image 20251124231519.png",
+    "大二秋/Course images/Pasted image 20251124231252.png",
+    "大二秋/Course images/Pasted image 20251124231033.png",
+    "大二秋/Course images/Pasted image 20251124225707.png",
+    "大二秋/Course images/Pasted image 20251124224620.png",
+    "大二秋/Course images/Pasted image 20251124224434.png",
+    "大二秋/Course images/Pasted image 20251124224428.png",
     "Daily Notes/2025-11-24.md",
-    "Daily Notes/2025-11-23.md",
     "大二秋/ECE 215.md",
     "大二秋/MATH 286.md",
+    "Daily Notes/2025-11-23.md",
     "Daily Notes/2025-11-22.md",
     "任务总览.md",
     "大二秋/大物250.md",
@@ -262,12 +268,6 @@
     "大二秋/Course images/Pasted image 20251123135240.png",
     "大二秋/Course images/Pasted image 20251123134756.png",
     "大二秋/Course images/Pasted image 20251123134634.png",
-    "大二秋/Course images/Pasted image 20251123112402.png",
-    "大二秋/Course images/Pasted image 20251123111628.png",
-    "大二秋/Course images/Pasted image 20251123110840.png",
-    "大二秋/Course images/Pasted image 20251123110706.png",
-    "大二秋/Course images/Pasted image 20251123110645.png",
-    "大二秋/Course images/Pasted image 20251123110505.png",
     "大二秋/ECE 270.md",
     "Daily Notes/2025-11-21.md",
     "Daily Notes/2025-11-20.md",
@@ -289,7 +289,6 @@
     "大二秋/TA/RC 4 (Chapter 9).md",
     "Daily Notes/2025-11-09.md",
     "Daily Notes/2025-11-06.md",
-    "Daily Notes/2025-11-07.md",
     "obsidian.gitignore",
     "新建 文本文档.gitignore",
     "新建 文本文档.txt",
