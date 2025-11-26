@@ -1091,6 +1091,25 @@ $$
 给无穷处的衰减速率定义一系列“分级”：
 ![[Pasted image 20251123140443.png]]
 
+可以发现，如果一个绝对可积的函数是 n 阶可导的，而且求n次导后还是绝对可积的，那么它求n阶导后的傅里叶变换就是原函数傅里叶变换乘上 $(i\xi)^n$, 我们又知道傅里叶变换应该是有界的，那么可以得到原函数傅里叶变换满足一个衰减速率：
+![[Pasted image 20251126195447.png]]
+
+从而，我们得到这样一个结论：函数越光滑（可导阶数越高），它的傅里叶变换的衰减的速率就越快。
+
+如果函数是无穷阶可导的，那么它的傅里叶变换就是任意次数的 polynomial decay, 也就是 faster-than-polynomial decay
+
+那么如何让傅里叶变换是 exponential decay 的呢？
+## Analytic Theory of the Fourier Transform
+
+![[Pasted image 20251126230028.png]]
 
 
 
+![[Pasted image 20251126230053.png]]
+
+
+![[Pasted image 20251126230225.png]]
+
+![[Pasted image 20251126231431.png]]
+
+![[Pasted image 20251126231454.png]]
