@@ -1,6 +1,7 @@
 # Foundational Results of Calculus and Linear Algebra
 ## Inverse Function Theorem
-Definition{.blue .bold}  
+<span class="red"> Definition  </span>
+
 Let (X ;  · ) be a ==complete==, normed vector space and $M\subset X$ a closed set. 
 A function f : M → M is said to be a ==contraction mapping== if there exists ==a number C < 1== such that
 $$|| f(x)-f(y) || \le C \cdot || x-y ||$$   
@@ -13,7 +14,8 @@ Contraction Mapping Principle{.red .bold}
 进一步的，我们可以用递归的方式定义这样一个数列，$a_0:=x$, $a_{n+1}:=f(a_n)$, $n\in \mathrm{N}$,  那么这个数列一定收敛到$x_0$, 即：
 $$\lim_{n \to \infty} a_n = x_0$$
 
-Definition{.blue .bold} 
+<span class="red"> Definition </span>
+
 ![[Pasted image 20250917131418.png]]  
 其中我们称 $f$ 是 locally invertible at $x_0 \in \Omega$ 的，如果==存在== $\epsilon >0$ , that $f: B_{\epsilon}(x_0)\longrightarrow Y$ 在这个==开球==上是invertible的 . 
 
@@ -27,7 +29,8 @@ Remark:
 - 在区间 $\Omega$ 的每一点处均locally invertible, 不一定在区间 $\Omega$ 上就是invertible 的
 - 存在连续可导的且可逆的函数，但是逆函数却不是连续可导的
 
-Lemma{.red .bold}
+<span class="red"> Lemma </span>
+
 ![[Pasted image 20250917140229.png]]  
 
 首先可以证明下方这个酷似泰勒展开的式子的准确性，由于GL(X)是一个群，其元素相乘相加依然属于该集合，因此证明了：只要线性映射$L$满足 $||L||<1$，那么$1-L$就是可逆的。进而可以证明GL(X)是开集。
@@ -495,7 +498,8 @@ $$
 
 首先介绍一下，线性微分方程组的两个分类，一些基本名词：
 ![[Pasted image 20251021210945.png]]
-这一节要探讨的是 homogeneous 的线性微分方程组，也就是 $b=0$ 的情形。也就是 $$
+这一节要探讨的是 homogeneous 的线性微分方程组，也就是 $b=0$ 的情形。也就是 
+$$
 \frac{dx}{dt}=A(t)x 
 $$
 这种方程非常类似线性代数中的线性方程组 $y=Ax$, 它们也共享了解的 Superposition Principle:
