@@ -439,7 +439,7 @@ $$
 
 ![[Pasted image 20251020193640.png]]
 
-恰当的 $M(x, y)$ 要能使得乘以原向量场 $F$ 的一个正交场 $\begin{pmatrix}g(x, y)\\h(x, y)\end{pmatrix}$ 后，得到的 $M(x, y)\cdot \begin{pmatrix}-h(x, y)\\g(x, y)\end{pmatrix}$ 是一个势能场。
+恰当的 $M(x, y)$ 要能使得乘以原向量场 $F$ $=\begin{pmatrix}-h(x, y)\\g(x, y)\end{pmatrix}$ 的一个正交场 $\begin{pmatrix}g(x, y)\\h(x, y)\end{pmatrix}$ 后，得到的 $M(x, y)\cdot \begin{pmatrix}g(x, y)\\h(x, y)\end{pmatrix}$ 是一个势能场。
 
 回忆 285 中如何实现这一点：一个场 $F$ 成为势能场的必要条件是：$\frac{\partial F_{2}}{\partial x}=\frac{\partial F_{1}}{\partial y}$ 
 那么：
@@ -1129,8 +1129,86 @@ $$
 
 这两个傅里叶逆变换定理是什么关系什么区别？第二个傅里叶逆变换定理适用性更广泛，不再要求函数必须非常光滑，而是对于存在不光滑不连续的点也有容忍性：“**只要它可积且只有有限个不光滑点，那么逆变换也成立，但在不光滑点会收敛到平均值**” 
 
-- [ ] 286 Quiz 3 ⏫ 📅 2025-11-29
-- [ ] 286 Quiz 4 ⏫ 📅 2025-11-29
+- [x] 286 Quiz 3 ⏫ 📅 2025-11-29 ✅ 2025-11-29
+- [x] 286 Quiz 4 ⏫ 📅 2025-11-29 ✅ 2025-11-29
 - [ ] 286 Quiz 5 ⏫ 📅 2025-12-06
 - [ ] 286 Quiz 6 ⏫ 📅 2025-12-06
+
+# Series Expansions and Partial Differential Equations
+
+## Power Series Solutions
+
+本章的核心内容是 power series ansatz, 就是说，通过假设解的形式为一个幂级数：
+$$
+x(t)=\sum_{k=0}^\infty a_{k}t^k
+$$
+代入方程求出系数 $a_{1}, a_{2},\dots$
+
+我们本章主要对付这种形式的微分方程：
+$$
+P(t)x''+Q(t)x'+R(t)x=0, \;\;t \in \mathbb{R}
+$$
+也就是 homogeneous 的微分方程，对于非 homogeneous 的，可以使用 Wronskian 方法
+
+有一个问题是，如果对于某些 $t_{0}\in \mathbb{R}$，$P(t_{0})=0$，那么 $t_{0}$ 两侧情况不连续，我们需要分别解出 $t<t_{0}$ 和 $t>t_{0}$ 的情形，但是这两个结果可能完全不一样，无法统一成一个解。
+
+因此，我们还是要把上面这个式子的 $P(t)$ 项约掉，变成：
+$$
+x''(t)+p(t)x'+q(t)x=0
+$$
+函数 $p(t), q(t)$ 的性质直接决定了解的性质，从下面这个定理可以看出来：
+
+![[Pasted image 20251129115453.png]]
+
+简单来说，就是如果函数 $p(t), q(t)$ 在围绕某点处有幂级数展开，那么方程的解 $x$ 在围绕该处同样有一个幂级数展开，而且在 $p(t), q(t)$ 都收敛的范围内一定收敛（收敛半径大于等于 $p(t), q(t)$ 收敛半径的最小值）
+
+由这个定理，也引出了 power series ansatz 方法的一大局限性，就是它通常只能做到找出围绕某点周围的一片区域的解析解，但是一旦超过该解的幂级数的收敛范围，这个解就不再适用，然而微分方程的真正解并不一定局限在这个范围内。（一个具体例子见课件 615）
+
+## Regular Singular Points
+
+还是研究形如 $P(t)x''+Q(t)x'+R(t)x=0$ 的微分方程，首先我们介绍一种特殊的微分方程，叫 Euler's equation: 
+$$
+t^{2}x''+\alpha tx'+\beta x=0\;,\; \alpha, \beta \in \mathbb{R}
+$$
+这个方程的解法是假设解的形式为 $x(t)=t^r$, （因为注意到方程二阶导系数为t二次，一阶导为一次，x(t) 项为常数）
+
+代入求解，可以得到：
+![[Pasted image 20251129142730.png]]
+
+### Singular Points
+
+我们将方程 $x''+p(t)x'+q(t)x=0$ 定义在一个复平面上，那么，如果对于点 $t_{0}\in \mathbb{C}$, $p,q$ 在其邻域都是解析的，那么$t_{0}$ 就是一个 **ordinary point**, 否则是一个 **singular point**
+
+singular point 又可以分为两类情况，如果对于 singular point $t_{0}\in \mathbb{C}$, $p$ 在该点是一个阶数不超过1的极点，$q$ 是一个阶数不超过2的极点，那么称为一个 regular singular point（正则奇点），否则称为 irregular singular point
+
+回忆复分析章节讨论极点的时候，阶数代表了前面有多少个分式项，于是，我们可以得到函数 $p,q$ 的如下形式：
+![[Pasted image 20251129144356.png]]
+
+下面是一些具体例子，其中最经典的就是 Bessel's equation:
+![[Pasted image 20251129144514.png]]
+![[Pasted image 20251129144526.png]]
+
+### The Method of Frobenius
+
+对于 $x''+p(t)x'+q(t)x=0$ ，如果 $t=0$ 处是一个正则奇点，那么我们可以乘上 $t^{2}$ , 变形为：
+$$
+t^{2}x''+t(tp(t))x'+t^{2}q(t)x=0
+$$
+根据正则奇点，我们知道 $p, q$ 在分别乘以 $t, t^{2}$ 后，$tp(t)$ 和 $t^{2}q(t)$ 就都是解析的了，于是我们假设这样一个解:
+
+![[Pasted image 20251129145102.png]]
+
+经过一通复杂的计算，可以得到：
+![[Pasted image 20251129145216.png]]
+
+进一步的：
+![[Pasted image 20251129145351.png]]
+
+$F(r)=r(r-1)+p_{0}r+q_{0}=0$ 称为指标方程(indicial equation)
+这个方程可以解出两个独立的 $r$ 值，分别作为递推公式 (30.8) 的起点，从而得到完整的，两个独立的，解
+
+两种情况可能导致这种方式失效：
+1. 指标方程解出的两个解相等，即 $r_{1}=r_{2}$
+2. 指标方程解出的两个解差值为整数，即 $r_{1}=r_{2}+N, N\in \mathbb{N}$
+ 
 
