@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -131,7 +131,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4aecc4bad07f5047",
@@ -247,13 +248,16 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "47448f9337eb6bf5",
+  "active": "7b0876345d0817ae",
   "lastOpenFiles": [
+    "大二秋/Course images/Pasted image 20251130221525.png",
+    "大二秋/Course images/Pasted image 20251130220957.png",
+    "Daily Notes/2025-11-29.md",
+    "大二秋/MATH 286.md",
+    "大二秋/Course images/Pasted image 20251130190849.png",
     "大二秋/ECE 215.md",
     "任务总览.md",
-    "Daily Notes/2025-11-29.md",
     "大二秋/ECE 270.md",
-    "大二秋/MATH 286.md",
     "大二秋/Course images/Pasted image 20251129145351.png",
     "大二秋/Course images/Pasted image 20251129145216.png",
     "大二秋/Course images/Pasted image 20251129145102.png",
@@ -264,8 +268,6 @@
     "大二秋/Course images/Pasted image 20251129115453.png",
     "Daily Notes/2025-11-28.md",
     "Daily Notes/2025-11-27.md",
-    "大二秋/Course images/Pasted image 20251127160557.png",
-    "大二秋/Course images/Pasted image 20251127160524.png",
     "Daily Notes/2025-11-25.md",
     "大二秋/大物250.md",
     "Daily Notes/2025-11-24.md",
