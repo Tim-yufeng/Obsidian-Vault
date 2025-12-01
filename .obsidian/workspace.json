@@ -15,7 +15,7 @@
               "state": {
                 "file": "大二秋/ECE 270.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "ECE 270"
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2025-11-29.md",
+                "file": "Daily Notes/2025-12-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-11-29"
+              "title": "2025-12-01"
             }
           },
           {
@@ -63,8 +63,7 @@
               "title": "ECE 215"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,12 +126,12 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4aecc4bad07f5047",
@@ -248,24 +247,25 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "7b0876345d0817ae",
+  "active": "444f436640f5df07",
   "lastOpenFiles": [
+    "大二秋/Course images/Pasted image 20251201232202.png",
+    "大二秋/Course images/Pasted image 20251201230551.png",
+    "大二秋/Course images/Pasted image 20251201230512.png",
+    "大二秋/ECE 215.md",
+    "大二秋/MATH 286.md",
+    "Daily Notes/2025-12-01.md",
+    "大二秋/Course images/Pasted image 20251201230129.png",
+    "大二秋/ECE 270.md",
+    "Daily Notes/2025-11-29.md",
     "大二秋/Course images/Pasted image 20251130221525.png",
     "大二秋/Course images/Pasted image 20251130220957.png",
-    "Daily Notes/2025-11-29.md",
-    "大二秋/MATH 286.md",
     "大二秋/Course images/Pasted image 20251130190849.png",
-    "大二秋/ECE 215.md",
     "任务总览.md",
-    "大二秋/ECE 270.md",
     "大二秋/Course images/Pasted image 20251129145351.png",
     "大二秋/Course images/Pasted image 20251129145216.png",
     "大二秋/Course images/Pasted image 20251129145102.png",
     "大二秋/Course images/Pasted image 20251129144526.png",
-    "大二秋/Course images/Pasted image 20251129144514.png",
-    "大二秋/Course images/Pasted image 20251129144356.png",
-    "大二秋/Course images/Pasted image 20251129142730.png",
-    "大二秋/Course images/Pasted image 20251129115453.png",
     "Daily Notes/2025-11-28.md",
     "Daily Notes/2025-11-27.md",
     "Daily Notes/2025-11-25.md",
@@ -288,7 +288,6 @@
     "Daily Notes/2025-11-14.md",
     "TA的自我修养/RC classroom and OH place booking.md",
     "Templates/科研笔记模板.md",
-    "Daily Notes/2025-11-13.md",
     "obsidian.gitignore",
     "新建 文本文档.gitignore",
     "新建 文本文档.txt",
