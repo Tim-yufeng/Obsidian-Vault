@@ -4,7 +4,7 @@
 .obsidian/workspace.json
 
 # 忽略常见大文件
-*.pdf
+# *.pdf
 *.zip
 *.rar
 *.mp4
