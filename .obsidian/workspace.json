@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "47448f9337eb6bf5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2025-12-02.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-12-02"
-            }
-          },
-          {
             "id": "7b0876345d0817ae",
             "type": "leaf",
             "state": {
@@ -76,9 +62,23 @@
               "icon": "lucide-file",
               "title": "大物250"
             }
+          },
+          {
+            "id": "1f8a11a7761cf0eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/2025-12-03.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-12-03"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -141,11 +141,13 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4aecc4bad07f5047",
@@ -261,24 +263,25 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "47448f9337eb6bf5",
+  "active": "1f8a11a7761cf0eb",
   "lastOpenFiles": [
     "大二秋/ECE 215.md",
+    "大二秋/ECE 270.md",
+    "大二秋/Course images/Pasted image 20251203212239.png",
+    "大二秋/Course images/Pasted image 20251203210903.png",
+    "大二秋/Course images/Pasted image 20251203210408.png",
+    "大二秋/Course images/Pasted image 20251203210252.png",
+    "大二秋/MATH 286.md",
+    "大二秋/Course images/Pasted image 20251203205358.png",
+    "大二秋/Course images/Pasted image 20251203205004.png",
+    "大二秋/Course images/Pasted image 20251203204950.png",
+    "大二秋/Course images/Pasted image 20251203204632.png",
+    "大二秋/Course images/Pasted image 20251203200140.png",
+    "大二秋/Course images/Pasted image 20251203195753.png",
+    "Daily Notes/2025-12-03.md",
     "Daily Notes/2025-12-02.md",
     "大二秋/大物250.md",
-    "大二秋/MATH 286.md",
-    "大二秋/Course images/Pasted image 20251202165628.png",
-    "大二秋/Course images/Pasted image 20251202165552.png",
-    "大二秋/Course images/Pasted image 20251202165529.png",
-    "大二秋/Course images/Pasted image 20251202165324.png",
-    "大二秋/Course images/Pasted image 20251202165300.png",
-    "大二秋/Course images/Pasted image 20251202165227.png",
-    "大二秋/Course images/Pasted image 20251202164817.png",
-    "大二秋/Course images/Pasted image 20251202164806.png",
-    "大二秋/ECE 270.md",
     "Daily Notes/2025-12-01.md",
-    "大二秋/Course images/Pasted image 20251202094653.png",
-    "大二秋/Course images/Pasted image 20251202094600.png",
     "Daily Notes/2025-11-29.md",
     "任务总览.md",
     "Daily Notes/2025-11-28.md",
@@ -300,7 +303,6 @@
     "Untitled.canvas",
     "2025-W46.md",
     "Daily Notes/2025-11-14.md",
-    "TA的自我修养/RC classroom and OH place booking.md",
     "obsidian.gitignore",
     "新建 文本文档.gitignore",
     "新建 文本文档.txt",
