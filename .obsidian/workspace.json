@@ -69,16 +69,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2025-12-03.md",
+                "file": "任务总览.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-03"
+              "title": "任务总览"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -141,8 +141,7 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -263,8 +262,18 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "1f8a11a7761cf0eb",
+  "active": "944c4a405e975a2b",
   "lastOpenFiles": [
+    "大二秋/Course images/Pasted image 20251204171238.png",
+    "大二秋/Course images/c5b41f52c3452a89e1c0dc8dc222845b.jpg",
+    "大二秋/Course images/d6aa74b86f5f7d815521a567a259085b.jpg",
+    "大二秋/Course images/Pasted image 20251204170545.png",
+    "大二秋/Course images/Pasted image 20251204165446.png",
+    "大二秋/Course images/Pasted image 20251204165436.png",
+    "大二秋/Course images/Pasted image 20251204164427.png",
+    "任务总览.md",
+    "Daily Notes/2025-12-04.md",
+    "Daily Notes/2025-12-03.md",
     "大二秋/ECE 215.md",
     "大二秋/ECE 270.md",
     "大二秋/Course images/Pasted image 20251203212239.png",
@@ -272,18 +281,10 @@
     "大二秋/Course images/Pasted image 20251203210408.png",
     "大二秋/Course images/Pasted image 20251203210252.png",
     "大二秋/MATH 286.md",
-    "大二秋/Course images/Pasted image 20251203205358.png",
-    "大二秋/Course images/Pasted image 20251203205004.png",
-    "大二秋/Course images/Pasted image 20251203204950.png",
-    "大二秋/Course images/Pasted image 20251203204632.png",
-    "大二秋/Course images/Pasted image 20251203200140.png",
-    "大二秋/Course images/Pasted image 20251203195753.png",
-    "Daily Notes/2025-12-03.md",
     "Daily Notes/2025-12-02.md",
     "大二秋/大物250.md",
     "Daily Notes/2025-12-01.md",
     "Daily Notes/2025-11-29.md",
-    "任务总览.md",
     "Daily Notes/2025-11-28.md",
     "Daily Notes/2025-11-27.md",
     "Daily Notes/2025-11-25.md",
@@ -302,7 +303,6 @@
     "Daily Notes/2025-11-15.md",
     "Untitled.canvas",
     "2025-W46.md",
-    "Daily Notes/2025-11-14.md",
     "obsidian.gitignore",
     "新建 文本文档.gitignore",
     "新建 文本文档.txt",
