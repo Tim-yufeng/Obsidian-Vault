@@ -69,16 +69,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "任务总览.md",
+                "file": "Daily Notes/2025-12-05.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "任务总览"
+              "title": "2025-12-05"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -145,8 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4aecc4bad07f5047",
@@ -257,30 +256,32 @@
       "obsidian-kanban:Create new board": false,
       "templater-obsidian:Templater": false,
       "smart-connections:Open: Smart Chat": false,
+      "periodic-notes:Open this week": false,
       "smart-connections:Smart Connections: Open connections view": false,
-      "smart-connections:Smart Connections: Open random connection": true,
-      "periodic-notes:Open this week": false
+      "smart-connections:Smart Connections: Open random connection": true
     }
   },
-  "active": "944c4a405e975a2b",
+  "active": "6c53edc805e7bd16",
   "lastOpenFiles": [
+    "大二秋/ECE 215.md",
+    "大二秋/ECE 215.pdf",
+    "大二秋/ECE 215_tmp.html",
+    "大二秋/Course images/Pasted image 20251205212645.png",
+    "大二秋/Course images/Pasted image 20251205212628.png",
+    "大二秋/Course images/Pasted image 20251205204144.png",
+    "大二秋/Course images/Pasted image 20251205203857.png",
+    "大二秋/Course images/Pasted image 20251205203614.png",
+    "Daily Notes/2025-12-05.md",
+    "任务总览.md",
+    "大二秋/MATH 286.md",
     "大二秋/Course images/Pasted image 20251204171238.png",
     "大二秋/Course images/c5b41f52c3452a89e1c0dc8dc222845b.jpg",
     "大二秋/Course images/d6aa74b86f5f7d815521a567a259085b.jpg",
     "大二秋/Course images/Pasted image 20251204170545.png",
     "大二秋/Course images/Pasted image 20251204165446.png",
-    "大二秋/Course images/Pasted image 20251204165436.png",
-    "大二秋/Course images/Pasted image 20251204164427.png",
-    "任务总览.md",
     "Daily Notes/2025-12-04.md",
     "Daily Notes/2025-12-03.md",
-    "大二秋/ECE 215.md",
     "大二秋/ECE 270.md",
-    "大二秋/Course images/Pasted image 20251203212239.png",
-    "大二秋/Course images/Pasted image 20251203210903.png",
-    "大二秋/Course images/Pasted image 20251203210408.png",
-    "大二秋/Course images/Pasted image 20251203210252.png",
-    "大二秋/MATH 286.md",
     "Daily Notes/2025-12-02.md",
     "大二秋/大物250.md",
     "Daily Notes/2025-12-01.md",
@@ -302,15 +303,12 @@
     "Daily Notes/2025-11-16.md",
     "Daily Notes/2025-11-15.md",
     "Untitled.canvas",
-    "2025-W46.md",
     "obsidian.gitignore",
     "新建 文本文档.gitignore",
     "新建 文本文档.txt",
     "大二秋/TA",
     "大二秋/TA for CHEM",
     "大二秋/Course images",
-    "大二秋",
-    "TA的自我修养",
-    "Testing Multi-subjects"
+    "大二秋"
   ]
 }
