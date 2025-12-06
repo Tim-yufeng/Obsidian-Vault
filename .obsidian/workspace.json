@@ -69,16 +69,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2025-12-05.md",
+                "file": "Daily Notes/2025-12-06.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-05"
+              "title": "2025-12-06"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -141,7 +141,8 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -261,8 +262,11 @@
       "smart-connections:Smart Connections: Open random connection": true
     }
   },
-  "active": "6c53edc805e7bd16",
+  "active": "1f8a11a7761cf0eb",
   "lastOpenFiles": [
+    "Daily Notes/2025-12-05.md",
+    "Daily Notes/2025-12-06.md",
+    "大二秋/大物250.md",
     "大二秋/ECE 215.md",
     "大二秋/ECE 215.pdf",
     "大二秋/ECE 215_tmp.html",
@@ -271,7 +275,6 @@
     "大二秋/Course images/Pasted image 20251205204144.png",
     "大二秋/Course images/Pasted image 20251205203857.png",
     "大二秋/Course images/Pasted image 20251205203614.png",
-    "Daily Notes/2025-12-05.md",
     "任务总览.md",
     "大二秋/MATH 286.md",
     "大二秋/Course images/Pasted image 20251204171238.png",
@@ -283,7 +286,6 @@
     "Daily Notes/2025-12-03.md",
     "大二秋/ECE 270.md",
     "Daily Notes/2025-12-02.md",
-    "大二秋/大物250.md",
     "Daily Notes/2025-12-01.md",
     "Daily Notes/2025-11-29.md",
     "Daily Notes/2025-11-28.md",
