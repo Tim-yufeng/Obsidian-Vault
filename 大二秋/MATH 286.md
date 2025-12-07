@@ -1320,4 +1320,84 @@ $$
 
 ![[Pasted image 20251203200140.png]]
 
+引出两个度量的概念，简单来说，一个集合 $\Omega$ **measure less than** $\epsilon$ 就是
+存在可能==可数无穷==个小区间，能够完全覆盖原来的集合 $\Omega$ , 而且所有这些小区间的长度之和小于 $\epsilon$
+
+如果对于任意 $\epsilon>0$ 都是 measure less than $\epsilon$ 的，那么称为 **measure less than zero**
+
+(不妨回忆一下MS讲过的那个有理数度量为零的证明)
+
+![[Pasted image 20251207105432.png]]
+
+于是从现在起，函数等价不再要求严格的 point-wise 相等，而是只要满足在大部分区域相等，允许在 measure zero 的区间不一致
+可以表述为，函数 $f, g$ have the value almost everywhere :
+$$
+\int_{I}|f(x)-g(x)|dx=0 \leftrightarrow f=g
+$$
+![[Pasted image 20251207112352.png]]
+
+![[Pasted image 20251207112426.png]]
+
+本章剩下的内容就是285的复习了，包括正交归一，Gram-Schmidt Orthonormalization 方法，特别是对多项式空间的应用等等
+
+![[Pasted image 20251207134931.png]]
+
+这相当于是把有限维空间的基底概念延拓到了无限维空间
+
 - [ ] quiz 7 📅 2025-12-13 ⏫ 
+
+## Fourier's Series
+
+首先构造出下面一组函数的集合，然后注意到他们居然是正交归一(orthonormal) 的
+
+![[Pasted image 20251207112810.png]]
+
+沿用通过正交归一的基底进行最佳逼近的结论，我们可以以这个集合的函数为基底，得到：
+
+![[Pasted image 20251207113057.png]]
+
+$N$ 就代表逼近到什么程度，以及我们说了，集合(33.1)其实就是一个标准的基底，所以对于所有在 $L^{2}([-\pi,\pi])$ 满足平方可积的函数，当 $N\to \infty$, 这个逼近的两边可以画上等号
+
+然后一件有意思的事：观察这个代入了函数 $f$ 的式子，因为过根据函数的内积：
+$$
+\left \langle \cos(nx), f \right \rangle=\int_{-\pi }^{\pi} \cos(nx)\cdot \bar{f} \, dx
+$$
+$$
+\left \langle \sin(nx), f \right \rangle=\int_{-\pi }^{\pi} \sin(nx)\cdot \bar{f} \, dx
+$$
+
+如果 $f$ 是奇函数，那么原式就只剩下 $\sin$ 有关的项了，偶函数的话就只剩下 $\cos$  （仅对于$L^2([-\pi,\pi])$ 或者其它左右对称的区间成立）
+
+由这样一个定理正式确定了，之前的那个函数集合，就是平方可积空间 $L^2([-\pi,\pi])$ 的一组 Schauder basis, 意味着该平方可积空间内，任何一个函数都可以被该基底唯一表示，称表示它的这个级数为 Fourier Series：
+
+![[Pasted image 20251207135343.png]]
+
+两个注意的点，一个是傅里叶级数并非处处收敛的相等，甚至都不是收敛区域上的任意点都满足的相等，而是前一章说的均方收敛；
+另一点是，当区间不再是 $L^2([-\pi,\pi])$, 我们需要改变公式里面的区间长度，比如区间是 $L^2([0, L])$, 下面这个公式相当于是一个区间长度为 $L$ 的普适公式：
+
+![[3fc0a5ece3dac1eae02afd806c2c72ff.jpg]]
+
+![[ef361a175bb05e80cdc420aa6984066a.jpg]]
+
+傅里叶级数的“不逐点收敛”，其实恰恰是它最强大的地方，这使得它可以拟合不连续的，有有限个断点的函数，比如方波函数，可以看到，在每个不连续点处，傅里叶级数拟合的图像都有一个突起，这被称为 Gibbs phenomenon. 这个现象正说明了，傅里叶级数无法做到逐点收敛
+
+而根据 Dirichlet theorem，在断点处的傅里叶级数拟合结果，是断电两侧函数值极限的平均数：
+$$
+S(x)=\frac{f(x^+)+f(x^-)}{2}
+$$
+因此可以说：**傅里叶级数放弃逐点收敛这一过强要求，使得它能够“分布式”地逼近更多不连续函数，而在跳跃点处自动给出左右值的对称平均。**
+
+<p align="center">
+  <img src="Pasted image 20251207143009.png" width="320"/>
+  <img src="Pasted image 20251207142953.png" width="320"/>
+</p>
+
+对于一个定义在“单侧”的函数，即定义在 $[0, L]$ 的函数 $f$，我们可以进行延伸：两种延伸方式，分别是 even extension（变成偶函数），和 odd extension（变成奇函数）
+
+以even extension 为例:
+![[Pasted image 20251207143538.png]]
+
+延伸后的傅里叶级数只包含 $\cos$ 项了这其实相当于是把原函数傅里叶级数中的 $\sin$ 项转换成了  $\cos$ 项
+odd extension 同理：
+![[Pasted image 20251207143742.png]]
+
