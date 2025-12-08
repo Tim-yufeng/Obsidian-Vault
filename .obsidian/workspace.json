@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2025-12-07.md",
+                "file": "Daily Notes/2025-12-08.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-07"
+              "title": "2025-12-08"
             }
           },
           {
@@ -64,21 +64,21 @@
             }
           },
           {
-            "id": "c1fd8078f06b0b61",
+            "id": "944afd7a22eace12",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fourier Transformation&Fourier Series.md",
+                "file": "任务总览.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fourier Transformation&Fourier Series"
+              "title": "任务总览"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -141,11 +141,13 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4aecc4bad07f5047",
@@ -261,12 +263,18 @@
       "smart-connections:Smart Connections: Open random connection": true
     }
   },
-  "active": "c1fd8078f06b0b61",
+  "active": "1f8a11a7761cf0eb",
   "lastOpenFiles": [
     "大二秋/MATH 286.md",
-    "Fourier Transformation&Fourier Series.md",
-    "Daily Notes/2025-12-07.md",
+    "任务总览.md",
+    "Daily Notes/2025-12-08.md",
     "大二秋/ECE 270.md",
+    "大二秋/Course images/24ca5cb09dcb173865faaa171dfd18ef.jpg",
+    "大二秋/Course images/0c2c45b43acceef3fdb7be0148562f44.jpg",
+    "大二秋/Course images/61b8af1f93dd33d0353596c86130cb6e.jpg",
+    "大二秋/Course images/7722ecb27ff3ca5f2450fbc869f81f19.jpg",
+    "Daily Notes/2025-12-07.md",
+    "Fourier Transformation&Fourier Series.md",
     "大二秋/ECE 215.md",
     "大二秋/Course images/Pasted image 20251207145916.png",
     "大二秋/Course images/Pasted image 20251207145424.png",
@@ -274,16 +282,11 @@
     "大二秋/Course images/Pasted image 20251207143742.png",
     "大二秋/Course images/Pasted image 20251207143538.png",
     "大二秋/Course images/Pasted image 20251207143009.png",
-    "大二秋/Course images/Pasted image 20251207142953.png",
-    "大二秋/Course images/3fc0a5ece3dac1eae02afd806c2c72ff.jpg",
-    "大二秋/Course images/ef361a175bb05e80cdc420aa6984066a.jpg",
-    "大二秋/Course images/Pasted image 20251207135343.png",
     "Daily Notes/2025-12-06.md",
     "大二秋/大物250.md",
     "Daily Notes/2025-12-05.md",
     "大二秋/ECE 215.pdf",
     "大二秋/ECE 215_tmp.html",
-    "任务总览.md",
     "Daily Notes/2025-12-04.md",
     "Daily Notes/2025-12-03.md",
     "Daily Notes/2025-12-02.md",
@@ -301,8 +304,6 @@
     "Untitled 1.canvas",
     "Untitled Kanban 2.md",
     "Untitled.base",
-    "Daily Notes/2025-11-18.md",
-    "Daily Notes/2025-11-17.md",
     "Untitled.canvas",
     "obsidian.gitignore",
     "新建 文本文档.gitignore",
