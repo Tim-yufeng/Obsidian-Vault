@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2025-12-08.md",
+                "file": "Daily Notes/2025-12-09.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-08"
+              "title": "2025-12-09"
             }
           },
           {
@@ -62,23 +62,8 @@
               "icon": "lucide-file",
               "title": "MATH 286"
             }
-          },
-          {
-            "id": "944afd7a22eace12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "任务总览.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "任务总览"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -263,25 +248,27 @@
       "smart-connections:Smart Connections: Open random connection": true
     }
   },
-  "active": "1f8a11a7761cf0eb",
+  "active": "444f436640f5df07",
   "lastOpenFiles": [
+    "大二秋/Course images/8df4ae03247a490bc10b1e342bc8f939.jpg",
+    "大二秋/Course images/3fd968977681255f0389d063a59ce365.jpg",
+    "大二秋/Course images/eed081ab7363e31b19cc3f01f2404ef3.jpg",
+    "大二秋/Course images/0b62925f556e169b87d1d5c613a98b01.jpg",
     "大二秋/MATH 286.md",
-    "任务总览.md",
-    "Daily Notes/2025-12-08.md",
+    "大二秋/ECE 215.md",
     "大二秋/ECE 270.md",
+    "Daily Notes/2025-12-09.md",
+    "Daily Notes/2025-12-08.md",
+    "任务总览.md",
     "大二秋/Course images/24ca5cb09dcb173865faaa171dfd18ef.jpg",
     "大二秋/Course images/0c2c45b43acceef3fdb7be0148562f44.jpg",
     "大二秋/Course images/61b8af1f93dd33d0353596c86130cb6e.jpg",
     "大二秋/Course images/7722ecb27ff3ca5f2450fbc869f81f19.jpg",
     "Daily Notes/2025-12-07.md",
     "Fourier Transformation&Fourier Series.md",
-    "大二秋/ECE 215.md",
     "大二秋/Course images/Pasted image 20251207145916.png",
     "大二秋/Course images/Pasted image 20251207145424.png",
     "大二秋/Course images/Pasted image 20251207145403.png",
-    "大二秋/Course images/Pasted image 20251207143742.png",
-    "大二秋/Course images/Pasted image 20251207143538.png",
-    "大二秋/Course images/Pasted image 20251207143009.png",
     "Daily Notes/2025-12-06.md",
     "大二秋/大物250.md",
     "Daily Notes/2025-12-05.md",
@@ -302,7 +289,6 @@
     "Daily Notes/2025-11-20.md",
     "Daily Notes/2025-11-19.md",
     "Untitled 1.canvas",
-    "Untitled Kanban 2.md",
     "Untitled.base",
     "Untitled.canvas",
     "obsidian.gitignore",
