@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2025-12-09.md",
+                "file": "Daily Notes/2025-12-10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-09"
+              "title": "2025-12-10"
             }
           },
           {
@@ -63,7 +63,8 @@
               "title": "MATH 286"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -131,8 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4aecc4bad07f5047",
@@ -248,16 +248,17 @@
       "smart-connections:Smart Connections: Open random connection": true
     }
   },
-  "active": "444f436640f5df07",
+  "active": "e4c3853b91712314",
   "lastOpenFiles": [
+    "Daily Notes/2025-12-10.md",
+    "Daily Notes/2025-12-09.md",
+    "大二秋/ECE 270.md",
     "大二秋/Course images/8df4ae03247a490bc10b1e342bc8f939.jpg",
     "大二秋/Course images/3fd968977681255f0389d063a59ce365.jpg",
     "大二秋/Course images/eed081ab7363e31b19cc3f01f2404ef3.jpg",
     "大二秋/Course images/0b62925f556e169b87d1d5c613a98b01.jpg",
     "大二秋/MATH 286.md",
     "大二秋/ECE 215.md",
-    "大二秋/ECE 270.md",
-    "Daily Notes/2025-12-09.md",
     "Daily Notes/2025-12-08.md",
     "任务总览.md",
     "大二秋/Course images/24ca5cb09dcb173865faaa171dfd18ef.jpg",
@@ -268,7 +269,6 @@
     "Fourier Transformation&Fourier Series.md",
     "大二秋/Course images/Pasted image 20251207145916.png",
     "大二秋/Course images/Pasted image 20251207145424.png",
-    "大二秋/Course images/Pasted image 20251207145403.png",
     "Daily Notes/2025-12-06.md",
     "大二秋/大物250.md",
     "Daily Notes/2025-12-05.md",
