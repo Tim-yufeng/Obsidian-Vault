@@ -1401,4 +1401,66 @@ $$
 odd extension 同理：
 ![[Pasted image 20251207143742.png]]
 
+于是我们可以得到区间 $L^{2}([0,L])$ 上，傅里叶级数的 3 种基底，分别对应正余弦混合，纯余弦，和纯正弦：
+
+![[Pasted image 20251212155549.png]]
+
+除此之外，傅里叶级数的基底还有一种更为简洁的指数表示：
+
+![[Pasted image 20251212155649.png]]
+
+由这种指数表示，可以推知傅里叶级数和傅里叶变换的联系，以及其物理意义，详见 [[Fourier Transformation&Fourier Series]]
+
+注意这种指数表示，n 的范围不再是 1 到无穷，而是==负无穷到无穷==
+
+## Boundary Value Problems for ODEs
+
+对比之前探讨的 ODE 的初始值，和本章探讨的Boundary Condition：
+
+![[Pasted image 20251212160510.png]]
+
+### Sturm-Liouville problems
+
+解决这类 Boundary Condition 问题，我们的策略是转化成一类问题：Sturm-Liouville problems
+
+首先将 ODE 转化成一个算子作用于目标函数 $u$ 的形式：
+定义下面这个算子 $L$:
+![[Pasted image 20251212160752.png]]
+
+这样我们有:
+$$
+Lu=-\frac{1}{r(x)}\left( \frac{d}{dx}\left( p(x)\frac{d}{dx}  u(x)\right)+q(x)u(x)  \right)
+$$
+
+像线性代数种的特征值问题一样，我们令：
+$$
+Lu=\lambda u
+$$
+于是，这两个式子可以一起写作：
+
+![[Pasted image 20251212161430.png]]
+
+事实上，任何线性的 ODE 都可以写作上面这个奇奇怪怪的算子形式，那么如何将我们熟悉的二次 ODE 转化成这个奇奇怪怪的算子形式呢？
+对于我们最熟知的形式: $a_{2}(x)y''+a_{1}(x)y'+a_{0}(x)y=0$ ，我们有：
+
+![[Pasted image 20251212161704.png]]
+
+注意按照 $p(x)\to r(x)\to q(x)$ 的顺序依次求解
+
+Just  a definition(?):
+
+![[Pasted image 20251212162203.png]]
+
+由之前那个算子定义的特征值问题 $Lu=\lambda u$ ，加上边界条件，就是一个标准的 Sturm-Liouville 问题：
+
+![[Pasted image 20251212162431.png]]
+
+这个问题的 solution 应该包含两部分，特征值 $\lambda$ 和 eigen function  $u_{\lambda}$（相当于这个问题的特征向量）
+
+这个算子问题中的 Spectral 定理：
+
+所有特征值都是实数，而且特征值由无数个，可以排列成一个通向无穷的，不收敛的数列
+所有特征函数可以组成平方可积空间的一个 orthonormal 的基底
+
+![[Pasted image 20251212163224.png]]
 

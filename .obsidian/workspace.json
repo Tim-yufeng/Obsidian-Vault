@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2025-12-11.md",
+                "file": "Daily Notes/2025-12-12.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-11"
+              "title": "2025-12-12"
             }
           },
           {
@@ -63,8 +63,7 @@
               "title": "MATH 286"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,12 +126,12 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4aecc4bad07f5047",
@@ -248,28 +247,32 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "1f8a11a7761cf0eb",
+  "active": "444f436640f5df07",
   "lastOpenFiles": [
-    "Daily Notes/2025-12-10.md",
-    "Daily Notes/2025-12-11.md",
     "大二秋/MATH 286.md",
+    "大二秋/Course images/Pasted image 20251212163224.png",
+    "大二秋/Course images/Pasted image 20251212162431.png",
+    "大二秋/Course images/Pasted image 20251212162203.png",
+    "大二秋/Course images/Pasted image 20251212161704.png",
+    "大二秋/Course images/Pasted image 20251212161430.png",
+    "大二秋/Course images/Pasted image 20251212160752.png",
+    "大二秋/Course images/Pasted image 20251212160510.png",
+    "Obsidian 使用指北/Obsidian使用指北-目录.md",
+    "Obsidian 使用指北/tasks插件语法.md",
+    "Obsidian 使用指北/Insert Template + Templater 插件.md",
+    "大二秋/Course images/Pasted image 20251212155649.png",
+    "大二秋/Course images/Pasted image 20251212155549.png",
+    "大二秋/ECE 215.md",
+    "Daily Notes/2025-12-12.md",
+    "Daily Notes/2025-12-11.md",
+    "Daily Notes/2025-12-10.md",
     "Daily Notes/2025-12-09.md",
     "大二秋/ECE 270.md",
     "大二秋/Course images/8df4ae03247a490bc10b1e342bc8f939.jpg",
-    "大二秋/Course images/3fd968977681255f0389d063a59ce365.jpg",
-    "大二秋/Course images/eed081ab7363e31b19cc3f01f2404ef3.jpg",
-    "大二秋/Course images/0b62925f556e169b87d1d5c613a98b01.jpg",
-    "大二秋/ECE 215.md",
     "Daily Notes/2025-12-08.md",
     "任务总览.md",
-    "大二秋/Course images/24ca5cb09dcb173865faaa171dfd18ef.jpg",
-    "大二秋/Course images/0c2c45b43acceef3fdb7be0148562f44.jpg",
-    "大二秋/Course images/61b8af1f93dd33d0353596c86130cb6e.jpg",
-    "大二秋/Course images/7722ecb27ff3ca5f2450fbc869f81f19.jpg",
     "Daily Notes/2025-12-07.md",
     "Fourier Transformation&Fourier Series.md",
-    "大二秋/Course images/Pasted image 20251207145916.png",
-    "大二秋/Course images/Pasted image 20251207145424.png",
     "Daily Notes/2025-12-06.md",
     "大二秋/大物250.md",
     "Daily Notes/2025-12-05.md",
@@ -283,11 +286,6 @@
     "Daily Notes/2025-11-28.md",
     "Daily Notes/2025-11-27.md",
     "Daily Notes/2025-11-25.md",
-    "Daily Notes/2025-11-24.md",
-    "Daily Notes/2025-11-23.md",
-    "Daily Notes/2025-11-22.md",
-    "Daily Notes/2025-11-21.md",
-    "Daily Notes/2025-11-20.md",
     "Untitled 1.canvas",
     "Untitled.base",
     "Untitled.canvas",
