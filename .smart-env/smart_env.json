@@ -20115,7 +20115,8 @@
     "muted": {
       "done_import": true,
       "embedding_complete": true,
-      "saving_collection": true
+      "saving_collection": true,
+      "new_version_available": true
     }
   },
   "version": "",
