@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "10b5f6187b42364a",
+        "id": "e74b39fdcda8e5d0",
         "type": "tabs",
         "children": [
           {
-            "id": "fb0b3f64eb7e642b",
+            "id": "cab4427275923039",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -80,8 +80,7 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -175,9 +174,19 @@
               "icon": "search",
               "title": "Smart Lookup"
             }
+          },
+          {
+            "id": "5c9bb93e46dbbaca",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -198,20 +207,24 @@
       "smart-connections:Open: Smart Chat": false,
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Smart Connections: Open random connection": true,
-      "periodic-notes:Open this week": false
+      "periodic-notes:Open this week": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "fb0b3f64eb7e642b",
+  "active": "cab4427275923039",
   "lastOpenFiles": [
+    "Templates/日记模板.md",
+    "大二秋/大物250.md",
+    "Untitled 1.canvas",
+    "大二秋/ECE 270.md",
+    "大二秋/ECE 215.md",
     "Question III Rubric.md",
     "Daily Notes/2025-12-14.md",
     "Daily Notes/2025-12-15.md",
-    "大二秋/ECE 215.md",
     "Fourier Transformation&Fourier Series.md",
     "大二秋/MATH 286.md",
     "Daily Notes/2025-12-13.md",
     "Daily Notes/2025-12-12.md",
-    "大二秋/ECE 270.md",
     "大二秋/Course images/Pasted image 20251212163224.png",
     "大二秋/Course images/Pasted image 20251212162431.png",
     "大二秋/Course images/Pasted image 20251212162203.png",
@@ -232,7 +245,6 @@
     "任务总览.md",
     "Daily Notes/2025-12-07.md",
     "Daily Notes/2025-12-06.md",
-    "大二秋/大物250.md",
     "Daily Notes/2025-12-05.md",
     "大二秋/ECE 215.pdf",
     "大二秋/ECE 215_tmp.html",
@@ -240,8 +252,6 @@
     "Daily Notes/2025-12-03.md",
     "Daily Notes/2025-12-02.md",
     "Daily Notes/2025-12-01.md",
-    "Daily Notes/2025-11-29.md",
-    "Untitled 1.canvas",
     "Untitled.base",
     "Untitled.canvas",
     "obsidian.gitignore",
