@@ -11,10 +11,14 @@
             "id": "cab4427275923039",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2026美赛Preparation/模型深入理解.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "模型深入理解"
             }
           }
         ]
@@ -207,12 +211,15 @@
       "smart-connections:Open: Smart Chat": false,
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Smart Connections: Open random connection": true,
-      "periodic-notes:Open this week": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "periodic-notes:Open this week": false
     }
   },
   "active": "cab4427275923039",
   "lastOpenFiles": [
+    "2026美赛Preparation/经典模型一览.md",
+    "2026美赛Preparation/模型深入理解.md",
+    "2026美赛Preparation",
     "Templates/日记模板.md",
     "大二秋/大物250.md",
     "Untitled 1.canvas",
@@ -250,8 +257,6 @@
     "大二秋/ECE 215_tmp.html",
     "Daily Notes/2025-12-04.md",
     "Daily Notes/2025-12-03.md",
-    "Daily Notes/2025-12-02.md",
-    "Daily Notes/2025-12-01.md",
     "Untitled.base",
     "Untitled.canvas",
     "obsidian.gitignore",
@@ -259,7 +264,6 @@
     "新建 文本文档.txt",
     "大二秋/TA",
     "大二秋/TA for CHEM",
-    "大二秋/Course images",
-    "大二秋"
+    "大二秋/Course images"
   ]
 }
