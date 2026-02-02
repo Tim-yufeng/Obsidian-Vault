@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026美赛Preparation/Model for task2.md",
+                "file": "2026美赛Preparation/Model for task 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Model for task2"
+              "title": "Model for task 4"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026美赛Preparation/Model for task3(ISRU modified).md",
+                "file": "2026美赛Preparation/All Outputs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Model for task3(ISRU modified)"
+              "title": "All Outputs"
             }
           },
           {
@@ -131,8 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4aecc4bad07f5047",
@@ -261,24 +260,25 @@
   },
   "active": "b10a4266286318d8",
   "lastOpenFiles": [
-    "2026美赛Preparation/All Outputs.md",
-    "2026美赛Preparation/Task 1 Model(simplified).md",
-    "2026美赛Preparation/Task1.md",
     "2026美赛Preparation/Task1 New Model.md",
-    "2026美赛Preparation/Model for task2.md",
-    "2026美赛Preparation/MCM2026B-中文版.md",
-    "2026美赛Preparation/四问总览.md",
     "2026美赛Preparation/Model Construction for Task 1.md",
-    "2026美赛Preparation/Model for task3.md",
+    "2026美赛Preparation/四问总览.md",
+    "2026美赛Preparation/Model for task 4.md",
     "2026美赛Preparation/Model for task3(ISRU modified).md",
-    "2026美赛Preparation/Untitled",
-    "2026美赛Preparation/Untitled 1.md",
+    "2026美赛Preparation/Task 1 Model(simplified).md",
+    "2026美赛Preparation/Model for task2.md",
+    "2026美赛Preparation/All Outputs.md",
     "2026美赛Preparation/Untitled.md",
+    "2026美赛Preparation/Untitled 1.md",
+    "2026美赛Preparation/Task1.md",
+    "2026美赛Preparation/流程图绘制.md",
+    "2026美赛Preparation/MCM2026B-中文版.md",
+    "2026美赛Preparation/Model for task3.md",
+    "2026美赛Preparation/Untitled",
     "2026美赛Preparation/Model Construction for Task 1 1.md",
     "2026美赛Preparation/模型深入理解.md",
     "Untitled.base",
     "2026美赛Preparation/时间安排.md",
-    "2026美赛Preparation/流程图绘制.md",
     "2026美赛Preparation/经典模型一览.md",
     "2026美赛Preparation",
     "Templates/日记模板.md",
@@ -290,7 +290,6 @@
     "Daily Notes/2025-12-14.md",
     "Daily Notes/2025-12-15.md",
     "Fourier Transformation&Fourier Series.md",
-    "大二秋/MATH 286.md",
     "大二秋/Course images/Pasted image 20251212163224.png",
     "大二秋/Course images/Pasted image 20251212162431.png",
     "大二秋/Course images/Pasted image 20251212162203.png",
