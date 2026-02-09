@@ -41,30 +41,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026美赛Preparation/All Outputs.md",
+                "file": "OuterWilds_ProjectList.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "All Outputs"
+              "title": "OuterWilds_ProjectList"
+            }
+          },
+          {
+            "id": "bf3253418df30b45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OuterWilds Templete Improvements.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OuterWilds Templete Improvements"
             }
           },
           {
             "id": "497e61d537978d6f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026美赛Preparation/Task 1 Model(simplified).md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Task 1 Model(simplified)"
+              "title": "New tab"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -131,7 +141,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4aecc4bad07f5047",
@@ -258,16 +269,24 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "b10a4266286318d8",
+  "active": "bf3253418df30b45",
   "lastOpenFiles": [
+    "OuterWilds_ProjectList.md",
+    "OuterWilds Templete Improvements.md",
+    "2026美赛Preparation/Task 1 Model(simplified).md",
+    "Untitled 1.canvas",
+    "Untitled Kanban.md",
+    "Untitled.base",
+    "Untitled.canvas",
+    "Question III Rubric.md",
+    "PCB List.md",
+    "2026美赛Preparation/All Outputs.md",
     "2026美赛Preparation/Task1 New Model.md",
     "2026美赛Preparation/Model Construction for Task 1.md",
     "2026美赛Preparation/四问总览.md",
     "2026美赛Preparation/Model for task 4.md",
     "2026美赛Preparation/Model for task3(ISRU modified).md",
-    "2026美赛Preparation/Task 1 Model(simplified).md",
     "2026美赛Preparation/Model for task2.md",
-    "2026美赛Preparation/All Outputs.md",
     "2026美赛Preparation/Untitled.md",
     "2026美赛Preparation/Untitled 1.md",
     "2026美赛Preparation/Task1.md",
@@ -277,19 +296,12 @@
     "2026美赛Preparation/Untitled",
     "2026美赛Preparation/Model Construction for Task 1 1.md",
     "2026美赛Preparation/模型深入理解.md",
-    "Untitled.base",
     "2026美赛Preparation/时间安排.md",
     "2026美赛Preparation/经典模型一览.md",
     "2026美赛Preparation",
     "Templates/日记模板.md",
     "大二秋/大物250.md",
-    "Untitled 1.canvas",
     "大二秋/ECE 270.md",
-    "大二秋/ECE 215.md",
-    "Question III Rubric.md",
-    "Daily Notes/2025-12-14.md",
-    "Daily Notes/2025-12-15.md",
-    "Fourier Transformation&Fourier Series.md",
     "大二秋/Course images/Pasted image 20251212163224.png",
     "大二秋/Course images/Pasted image 20251212162431.png",
     "大二秋/Course images/Pasted image 20251212162203.png",
@@ -302,7 +314,6 @@
     "大二秋/Course images/8df4ae03247a490bc10b1e342bc8f939.jpg",
     "大二秋/ECE 215.pdf",
     "大二秋/ECE 215_tmp.html",
-    "Untitled.canvas",
     "obsidian.gitignore",
     "新建 文本文档.gitignore",
     "新建 文本文档.txt",
