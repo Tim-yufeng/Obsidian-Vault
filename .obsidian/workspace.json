@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "401 Ch1 Summary.md",
+                "file": "校拟饭饭（？）/西北的故事——框架.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "401 Ch1 Summary"
+              "title": "西北的故事——框架"
             }
           }
         ]
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4aecc4bad07f5047",
@@ -217,11 +218,14 @@
   },
   "active": "497e61d537978d6f",
   "lastOpenFiles": [
+    "校拟饭饭（？）/西北的故事——人设.md",
+    "校拟饭饭（？）/西北的故事——框架.md",
+    "401 Ch1 Summary.md",
+    "校拟饭饭（？）",
     "Rules for recording missions in Obsidian.md",
     "Question III Rubric.md",
     "PCB List.md",
     "Untitled 1.base",
-    "401 Ch1 Summary.md",
     "OuterWilds Templete Improvements.md",
     "OuterWilds_ProjectList.md",
     "2026美赛Preparation/Task 1 Model(simplified).md",
@@ -246,9 +250,7 @@
     "2026美赛Preparation/Model Construction for Task 1 1.md",
     "2026美赛Preparation/模型深入理解.md",
     "2026美赛Preparation/时间安排.md",
-    "2026美赛Preparation/经典模型一览.md",
     "2026美赛Preparation",
-    "Templates/日记模板.md",
     "大二秋/Course images/Pasted image 20251212163224.png",
     "大二秋/Course images/Pasted image 20251212162431.png",
     "大二秋/Course images/Pasted image 20251212162203.png",
@@ -263,7 +265,6 @@
     "大二秋/ECE 215_tmp.html",
     "obsidian.gitignore",
     "新建 文本文档.gitignore",
-    "新建 文本文档.txt",
-    "大二秋/TA"
+    "新建 文本文档.txt"
   ]
 }

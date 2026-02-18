@@ -29,7 +29,7 @@
     
 - **伽马分布 (Gamma Distribution)**：参数为 $\lambda, \alpha > 0$，可表示泊松过程中发生 $r$ 次事件所需的时间 (当 $\lambda = r, \alpha = \text{rate}$ 时)。PDF 为 $f_{\lambda, \alpha}(x) = \frac{\alpha^\lambda}{\Gamma(\lambda)} x^{\lambda-1} e^{-\alpha x}$ ($x > 0$)。期望为 $E[X] = \frac{\lambda}{\alpha}$，方差为 $Var[X] = \frac{\lambda}{\alpha^2}$。矩母函数为 $m_X(t) = (1 - t/\alpha)^{-\lambda}$。
     
-- **卡方分布 (Chi-Squared Distribution, $\chi^2$)**：是 $\alpha=1/2, \lambda=\nu/2$ 的特例伽马分布，$\nu$ 称为自由度。 PDF 为 $f_\nu(x) = \frac{1}{\Gamma(\nu/2)2^{\nu/2}} x^{\nu/2-1} e^{-x/2}$。期望为 $E[\chi^2_\nu] = \nu$，方差为 $Var[\chi^2_\nu] = 2\nu$。**重要性质**：$n$ 个独立的标准正态分布随机变量的平方和服从自由度为 $n$ 的卡方分布。
+- **卡方分布 (Chi-Squared Distribution, $\chi^2$)**：是 $\alpha=1/2, \lambda=\nu/2$ 的==特例伽马分布==，$\nu$ 称为自由度。 PDF 为 $f_\nu(x) = \frac{1}{\Gamma(\nu/2)2^{\nu/2}} x^{\nu/2-1} e^{-x/2}$。期望为 $E[\chi^2_\nu] = \nu$，方差为 $Var[\chi^2_\nu] = 2\nu$。**重要性质**：$n$ 个独立的标准正态分布随机变量的平方和服从自由度为 $n$ 的卡方分布。
     
 - **正态分布 (Normal / Gaussian Distribution)**：参数为均值 $\mu$ 与标准差 $\sigma$。 PDF 为 $f(x) = \frac{1}{\sqrt{2\pi}\sigma} e^{-\frac{(x-\mu)^2}{2\sigma^2}}$。标准正态分布 $Z \sim N(0,1)$ 的累积分布函数常记为 $\Phi(z)$。
     
