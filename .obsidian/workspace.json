@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "401 Ch1 Summary.md",
+                "file": "Daily Notes/2026-03-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "401 Ch1 Summary"
+              "title": "2026-03-01"
             }
           }
         ],
@@ -99,12 +99,12 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4aecc4bad07f5047",
@@ -233,6 +233,7 @@
   },
   "active": "5b7e675a516d1e8d",
   "lastOpenFiles": [
+    "Daily Notes/2026-03-01.md",
     "大一夏/285.md",
     "大一夏",
     "校拟饭饭（？）/西北的故事——框架.md",
@@ -265,7 +266,6 @@
     "2026美赛Preparation/Model for task3.md",
     "2026美赛Preparation/Untitled",
     "2026美赛Preparation/Model Construction for Task 1 1.md",
-    "2026美赛Preparation/模型深入理解.md",
     "2026美赛Preparation",
     "大二秋/Course images/Pasted image 20251212163224.png",
     "大二秋/Course images/Pasted image 20251212162431.png",
