@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-03-02.md",
+                "file": "Daily Notes/2026-03-04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-02"
+              "title": "2026-03-04"
+            }
+          },
+          {
+            "id": "a9b6fd969364d88a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "大二春/习概（我看你能坚持记多少）.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "习概（我看你能坚持记多少）"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +59,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -84,13 +99,11 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4aecc4bad07f5047",
@@ -217,11 +230,21 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "5b7e675a516d1e8d",
+  "active": "a9b6fd969364d88a",
   "lastOpenFiles": [
+    "大二春/ECE 401.md",
+    "大二春/习概（我看你能坚持记多少）.md",
+    "大二春/ECE 280.md",
+    "大二秋/Course images/Pasted image 20260304133823.png",
+    "大二秋/Course images/Pasted image 20260304133800.png",
+    "Daily Notes/2026-03-04.md",
+    "Daily Notes/2026-03-03.md",
+    "大二春",
+    "Untitled 1.canvas",
+    "Templates/日记模板.md",
+    "Daily Notes/2026-03-02.md",
     "大二秋/Course images/ac24ef83c46b3c368806e1ac2f5a6484.png",
     "Daily Notes/2026-03-01.md",
-    "Daily Notes/2026-03-02.md",
     "大一夏/285.md",
     "大一夏",
     "校拟饭饭（？）/西北的故事——框架.md",
@@ -235,7 +258,6 @@
     "OuterWilds Templete Improvements.md",
     "OuterWilds_ProjectList.md",
     "2026美赛Preparation/Task 1 Model(simplified).md",
-    "Untitled 1.canvas",
     "Untitled Kanban.md",
     "Untitled.base",
     "Untitled.canvas",
@@ -246,11 +268,6 @@
     "2026美赛Preparation/Model for task 4.md",
     "2026美赛Preparation/Model for task3(ISRU modified).md",
     "2026美赛Preparation/Model for task2.md",
-    "2026美赛Preparation/Untitled.md",
-    "2026美赛Preparation/Untitled 1.md",
-    "2026美赛Preparation/Task1.md",
-    "2026美赛Preparation/流程图绘制.md",
-    "2026美赛Preparation/MCM2026B-中文版.md",
     "2026美赛Preparation/Untitled",
     "2026美赛Preparation",
     "大二秋/Course images/Pasted image 20251212163224.png",
@@ -260,12 +277,8 @@
     "大二秋/Course images/Pasted image 20251212161430.png",
     "大二秋/Course images/Pasted image 20251212160752.png",
     "大二秋/Course images/Pasted image 20251212160510.png",
-    "大二秋/Course images/Pasted image 20251212155649.png",
-    "大二秋/Course images/Pasted image 20251212155549.png",
-    "大二秋/Course images/8df4ae03247a490bc10b1e342bc8f939.jpg",
     "大二秋/ECE 215.pdf",
     "大二秋/ECE 215_tmp.html",
-    "obsidian.gitignore",
-    "新建 文本文档.gitignore"
+    "obsidian.gitignore"
   ]
 }
