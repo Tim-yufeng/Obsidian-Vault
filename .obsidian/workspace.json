@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-03-05.md",
+                "file": "大二春/习概（我看你能坚持记多少）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-05"
+              "title": "习概（我看你能坚持记多少）"
             }
           },
           {
@@ -98,13 +98,11 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4aecc4bad07f5047",
@@ -233,10 +231,11 @@
   },
   "active": "5b7e675a516d1e8d",
   "lastOpenFiles": [
-    "Daily Notes/2026-03-04.md",
-    "Daily Notes/2026-03-05.md",
-    "大二春/ECE 401.md",
     "大二春/ECE 280.md",
+    "大二秋/Course images/Pasted image 20260306141954.png",
+    "Daily Notes/2026-03-05.md",
+    "Daily Notes/2026-03-04.md",
+    "大二春/ECE 401.md",
     "大二秋/Course images/Pasted image 20260305224759.png",
     "大二秋/Course images/Pasted image 20260305224749.png",
     "大二秋/Course images/Pasted image 20260305224730.png",
@@ -247,7 +246,6 @@
     "大二秋/Course images/Pasted image 20260305153353.png",
     "大二秋/Course images/Pasted image 20260305152914.png",
     "大二春/习概（我看你能坚持记多少）.md",
-    "大二秋/Course images/Pasted image 20260304133823.png",
     "Daily Notes/2026-03-03.md",
     "大二春",
     "Untitled 1.canvas",
@@ -275,7 +273,6 @@
     "2026美赛Preparation/Model Construction for Task 1.md",
     "2026美赛Preparation/四问总览.md",
     "2026美赛Preparation/Model for task 4.md",
-    "2026美赛Preparation/Model for task3(ISRU modified).md",
     "2026美赛Preparation/Untitled",
     "2026美赛Preparation",
     "大二秋/ECE 215.pdf",
