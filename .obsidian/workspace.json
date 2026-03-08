@@ -102,8 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4aecc4bad07f5047",
@@ -232,12 +231,13 @@
   },
   "active": "5b7e675a516d1e8d",
   "lastOpenFiles": [
+    "Daily Notes/2026-03-08.md",
+    "大二春/ECE 280.md",
     "大二秋/Course images/Pasted image 20260307225928.png",
     "大二秋/Course images/Pasted image 20260307224837.png",
     "大二秋/Course images/Pasted image 20260307222805.png",
     "大二秋/Course images/Pasted image 20260307105724.png",
     "大二春/习概（我看你能坚持记多少）.md",
-    "大二春/ECE 280.md",
     "大二秋/Course images/Pasted image 20260306141954.png",
     "Daily Notes/2026-03-05.md",
     "Daily Notes/2026-03-04.md",
@@ -247,7 +247,6 @@
     "大二秋/Course images/Pasted image 20260305224730.png",
     "大二秋/Course images/Pasted image 20260305155617.png",
     "大二秋/Course images/Pasted image 20260305154634.png",
-    "大二秋/Course images/Pasted image 20260305154239.png",
     "Daily Notes/2026-03-03.md",
     "大二春",
     "Untitled 1.canvas",
