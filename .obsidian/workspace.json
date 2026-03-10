@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-03-09.md",
+                "file": "Daily Notes/2026-03-10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-09"
+              "title": "2026-03-10"
+            }
+          },
+          {
+            "id": "08d23be7c0efbe37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "大二春/ECE 280.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ECE 280"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -232,27 +246,29 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "a2dd5b741f2ee018",
+  "active": "08d23be7c0efbe37",
   "lastOpenFiles": [
-    "任务总览.md",
+    "大二秋/Course images/Pasted image 20260310162409.png",
+    "大二春/image.png",
+    "大二秋/Course images/Pasted image 20260310162247.png",
+    "大二秋/Course images/Pasted image 20260310160008.png",
+    "大二秋/Course images/Pasted image 20260310155846.png",
+    "大二秋/Course images/Pasted image 20260310154848.png",
+    "大二秋/Course images/Pasted image 20260310154750.png",
+    "Daily Notes/2026-03-10.md",
     "Daily Notes/2026-03-09.md",
-    "2025-W46.md",
     "大二春/ECE 280.md",
+    "任务总览.md",
+    "2025-W46.md",
     "Daily Notes/2026-03-08.md",
     "大二秋/Course images/Pasted image 20260307225928.png",
     "大二秋/Course images/Pasted image 20260307224837.png",
     "大二秋/Course images/Pasted image 20260307222805.png",
     "大二秋/Course images/Pasted image 20260307105724.png",
     "大二春/习概（我看你能坚持记多少）.md",
-    "大二秋/Course images/Pasted image 20260306141954.png",
     "Daily Notes/2026-03-05.md",
     "Daily Notes/2026-03-04.md",
     "大二春/ECE 401.md",
-    "大二秋/Course images/Pasted image 20260305224759.png",
-    "大二秋/Course images/Pasted image 20260305224749.png",
-    "大二秋/Course images/Pasted image 20260305224730.png",
-    "大二秋/Course images/Pasted image 20260305155617.png",
-    "大二秋/Course images/Pasted image 20260305154634.png",
     "Daily Notes/2026-03-03.md",
     "大二春",
     "Untitled 1.canvas",
@@ -275,8 +291,6 @@
     "Untitled Kanban.md",
     "Untitled.base",
     "Untitled.canvas",
-    "2026美赛Preparation/All Outputs.md",
-    "2026美赛Preparation/Task1 New Model.md",
     "2026美赛Preparation/Untitled",
     "2026美赛Preparation",
     "大二秋/ECE 215.pdf",
