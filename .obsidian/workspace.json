@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大二春/ECE 280.md",
-                "mode": "preview",
+                "file": "Daily Notes/2026-03-16.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ECE 280"
+              "title": "2026-03-16"
             }
           }
         ],
@@ -104,7 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 239.5
   },
   "right": {
     "id": "4aecc4bad07f5047",
@@ -233,10 +233,11 @@
   },
   "active": "08d23be7c0efbe37",
   "lastOpenFiles": [
+    "大二春/ECE 280.md",
+    "Daily Notes/2026-03-16.md",
     "Daily Notes/2026-03-09.md",
     "Daily Notes/2026-03-14.md",
     "Daily Notes/2026-03-13.md",
-    "大二春/ECE 280.md",
     "大二秋/Course images/Pasted image 20260314102338.png",
     "大二秋/Course images/Pasted image 20260314102220.png",
     "Daily Notes/2026-03-12.md",
