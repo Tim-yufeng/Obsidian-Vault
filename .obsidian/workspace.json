@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-03-16.md",
+                "file": "Daily Notes/2026-03-18.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-16"
+              "title": "2026-03-18"
             }
           }
         ],
@@ -233,8 +233,9 @@
   },
   "active": "08d23be7c0efbe37",
   "lastOpenFiles": [
-    "大二春/ECE 280.md",
     "Daily Notes/2026-03-16.md",
+    "Daily Notes/2026-03-18.md",
+    "大二春/ECE 280.md",
     "Daily Notes/2026-03-09.md",
     "Daily Notes/2026-03-14.md",
     "Daily Notes/2026-03-13.md",
@@ -273,7 +274,6 @@
     "Question III Rubric.md",
     "PCB List.md",
     "Untitled 1.base",
-    "OuterWilds Templete Improvements.md",
     "Untitled.base",
     "Untitled.canvas",
     "2026美赛Preparation/Untitled",
