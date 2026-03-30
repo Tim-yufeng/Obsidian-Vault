@@ -55,16 +55,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-03-29.md",
+                "file": "Daily Notes/2026-03-30.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-29"
+              "title": "2026-03-30"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -127,12 +127,12 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 275.5,
-    "collapsed": true
+    "width": 275.5
   },
   "right": {
     "id": "4aecc4bad07f5047",
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2026-03-29.md",
+                "file": "大二春/ECE 280/Code Quality Stuff.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2026-03-29 的反向链接列表"
+              "title": "Code Quality Stuff 的反向链接列表"
             }
           },
           {
@@ -224,8 +224,10 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "3911c643623b8b27",
+  "active": "329244f622a77a15",
   "lastOpenFiles": [
+    "Daily Notes/2026-03-30.md",
+    "Daily Notes/2026-03-29.md",
     "任务总览.md",
     "大二春/ECE 280/Code Quality Stuff.md",
     "Stupid mistakes in ECE280.md",
@@ -235,7 +237,6 @@
     "大二秋/Course images/Pasted image 20260329213320.png",
     "大二秋/Course images/Pasted image 20260329213304.png",
     "大二秋/Course images/Pasted image 20260329211421.png",
-    "Daily Notes/2026-03-29.md",
     "大二春/ECE 280/Abstract Data Type - Class.md",
     "Daily Notes/2026-03-28.md",
     "Daily Notes/2026-03-27.md",
