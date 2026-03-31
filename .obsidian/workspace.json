@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大二春/ECE 280.md",
+                "file": "任务总览.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ECE 280"
+              "title": "任务总览"
             }
           },
           {
@@ -41,26 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大二春/ECE 280/Code Quality Stuff.md",
+                "file": "大二春/ECE 280/Stupid mistakes in ECE280.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Code Quality Stuff"
-            }
-          },
-          {
-            "id": "3911c643623b8b27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2026-03-30.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-03-30"
+              "title": "Stupid mistakes in ECE280"
             }
           }
         ],
@@ -127,8 +113,7 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -148,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "大二春/ECE 280/Code Quality Stuff.md",
+                "file": "Stupid mistakes in ECE280.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +143,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Code Quality Stuff 的反向链接列表"
+              "title": "Stupid mistakes in ECE280 的反向链接列表"
             }
           },
           {
@@ -226,28 +211,29 @@
   },
   "active": "329244f622a77a15",
   "lastOpenFiles": [
-    "Daily Notes/2026-03-30.md",
-    "Daily Notes/2026-03-29.md",
-    "任务总览.md",
-    "大二春/ECE 280/Code Quality Stuff.md",
-    "Stupid mistakes in ECE280.md",
     "大二春/ECE 280.md",
+    "大二春/ECE 280/Testing.md",
+    "大二春/ECE 280/Throw-Catch ( Exception Handling).md",
+    "Daily Notes/2026-03-30.md",
     "大二春/ECE 280/IO Stream.md",
+    "Daily Notes/2026-03-27.md",
+    "Daily Notes/2026-03-28.md",
+    "Daily Notes/2026-03-29.md",
+    "Daily Notes/2026-03-23.md",
+    "任务总览.md",
+    "大二春/ECE 280/Stupid mistakes in ECE280.md",
+    "大二春/ECE 280/Code Quality Stuff.md",
+    "大二春/ECE 280/函数调用机制与调用栈 (Function Call Mechanism & Call Stacks).md",
     "大二秋/Course images/Pasted image 20260329214642.png",
     "大二秋/Course images/Pasted image 20260329213320.png",
     "大二秋/Course images/Pasted image 20260329213304.png",
     "大二秋/Course images/Pasted image 20260329211421.png",
     "大二春/ECE 280/Abstract Data Type - Class.md",
-    "Daily Notes/2026-03-28.md",
-    "Daily Notes/2026-03-27.md",
     "stringstream.md",
-    "大二春/ECE 280/Throw-Catch ( Exception Handling).md",
     "大二春/习概（我看你能坚持记多少）.md",
     "大二秋/Course images/Pasted image 20260325123112.png",
     "大二春/ECE 401.md",
-    "大二春/ECE 280/Testing.md",
     "大二秋/Course images/Pasted image 20260325121751.png",
-    "大二春/ECE 280/函数调用机制与调用栈 (Function Call Mechanism & Call Stacks).md",
     "大二春/ECE 280/Enum.md",
     "大二春/ECE 280",
     "大二秋/Course images/Pasted image 20260325120815.png",
@@ -258,7 +244,6 @@
     "大二秋/Course images/Pasted image 20260324164241.png",
     "大二秋/Course images/Pasted image 20260324163640.png",
     "Daily Notes/2026-03-13.md",
-    "Daily Notes/2026-03-23.md",
     "Daily Notes/2026-03-10.md",
     "Daily Notes/2026-03-12.md",
     "Daily Notes/2026-03-14.md",

@@ -39,3 +39,10 @@
 1. **外部 `const` 的唯一效力**：是让该指针变量无法再指向其他地址。
     
 2. **指向内容的属性**：完全由 `typedef` 定义时的内部结构决定
+
+- Some packages you might forget:
+	- `getline()` , `get()` , `ignore()`   that's ==`<iostream>`== 
+	- For those `std::string` you deal with, that's ==`<string>`==
+	- `atoi()` to turn string into int, that's ==`<cstdlib>`==
+	- `setw()`, that's ==`<iomanip>`==
+	- 

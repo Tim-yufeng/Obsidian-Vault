@@ -13,10 +13,37 @@
 * **cerr (标准错误流)**：
     * 专门用于输出错误信息。
     * **核心区别**：`cout` 是**有缓冲的 (Buffered)**，而 `cerr` **没有缓冲**，确保程序崩溃前错误信息能即时显示。
+**示例代码：**
+```cpp
+#include <iostream>
+#include <iomanip>
+using namespace std;
 
----
+int main(int argc, char *argv[]) {
+        for (int i = 1; i < argc; i++) {
+                cout << right << setw(8) << argv[i] << endl;
+                cout << left << setw(8) << argv[i] << endl;
+        }
+        return 0;
+}
+```
+输出示例：
+```shell
+tim_yufeng@DESKTOP-TP5O3R6:~/280practice$ ./program Universe is so we are
+Universe
+Universe
+      is
+is
+      so
+so
+      we
+we
+     are
+are
+```
 
-### 3. 标准输入流 (cin)
+
+3. 标准输入流 (cin)
 * **提取运算符 `>>`**：从输入流中提取数据，遇到**空白字符**（空格、制表符、换行）会停止。
 * **getline(cin, str)**：读取整行，包括空格，直到遇到换行符为止。换行符会被读取并丢弃。
 * **cin.get(ch)**：读取**单个**字符，包括空格和换行符。常用于处理 `>>` 留下的残留空格。
@@ -36,11 +63,10 @@
     3.  **关闭 (Close)**：`iFile.close()`。
 * **关闭的重要性**：减少文件损坏风险；确保数据从缓冲区完全写入磁盘；以便后续程序重新读取该文件。
 * **安全读取技巧**：
-    * 错误示例：`while(iFile) { getline(...); }`。这会导致最后一行多读一次空行。
+    * 错误示例：`
     * 正确示例：**`while(getline(iFile, line))`**。将读取操作作为循环条件，利用其返回值判断是否到达文件末尾。
 
 ---
-
 ### 5. 字符串流 (String Streams)
 * **头文件**：`#include <sstream>`。
 * **用途**：实现字符串与其他数据类型的**内存中转换**。
