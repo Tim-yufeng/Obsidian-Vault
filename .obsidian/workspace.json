@@ -8,45 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8bf50607e97ebf19",
+            "id": "ff962bb6b40016e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "任务总览.md",
+                "file": "Daily Notes/2026-04-10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "任务总览"
+              "title": "2026-04-10"
             }
           },
           {
-            "id": "4db84b188c233975",
+            "id": "9bcc7283784f2110",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大二春/ECE 280/IO Stream.md",
+                "file": "大二春/ECE 280/Dynamic allocation  and Destructor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IO Stream"
-            }
-          },
-          {
-            "id": "329244f622a77a15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "大二春/ECE 280/Throw-Catch ( Exception Handling).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Throw-Catch ( Exception Handling)"
+              "title": "Dynamic allocation  and Destructor"
             }
           }
         ]
@@ -208,55 +194,55 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "8bf50607e97ebf19",
+  "active": "cadf2641ae33538a",
   "lastOpenFiles": [
-    "大二春/ECE 280/Throw-Catch ( Exception Handling).md",
-    "大二春/ECE 280/Testing.md",
-    "大二春/ECE 280/Stupid mistakes in ECE280.md",
-    "大二春/ECE 280/Code Quality Stuff.md",
+    "Untitled.canvas",
+    "Untitled.base",
+    "Untitled Kanban.md",
+    "Untitled Kanban 2.md",
+    "Untitled Kanban 1.md",
+    "Untitled 1.canvas",
+    "Untitled 1.base",
+    "Question III Rubric.md",
+    "2025-W46.md",
+    "2025-W41.md",
+    "大二春/ECE 280/Dynamic allocation  and Destructor.md",
+    "大二秋/Course images/Pasted image 20260410091646.png",
+    "Daily Notes/2026-04-10.md",
+    "Daily Notes/2026-04-09.md",
     "大二春/ECE 280/Abstract Data Type - Class.md",
+    "大二春/ECE 280/Stupid mistakes in ECE280.md",
+    "Daily Notes/2026-04-08.md",
+    "大二秋/Course images/Pasted image 20260408213837.png",
+    "大二秋/Course images/Pasted image 20260408213704.png",
+    "大二秋/Course images/Pasted image 20260408213652.png",
+    "大二秋/Course images/Pasted image 20260408213646.png",
+    "大二春/ECE 280/Interfaces and Invariants.md",
+    "大二秋/Course images/Pasted image 20260408212812.png",
+    "大二秋/Course images/Pasted image 20260408212754.png",
+    "Subtypes and Inheritance.md",
     "大二春/ECE 280.md",
-    "Daily Notes/2026-03-30.md",
-    "大二春/ECE 280/IO Stream.md",
-    "Daily Notes/2026-03-27.md",
-    "Daily Notes/2026-03-28.md",
-    "Daily Notes/2026-03-29.md",
-    "Daily Notes/2026-03-23.md",
     "任务总览.md",
-    "大二春/ECE 280/函数调用机制与调用栈 (Function Call Mechanism & Call Stacks).md",
+    "Arch-Linux/Arch-Linux in VitualMachine 1.md",
+    "2026-W15.md",
+    "Arch-Linux",
+    "大二秋/Course images/Pasted image 20260407220700.png",
+    "大二秋/TA/Question III Rubric.md",
+    "Rules for recording missions in Obsidian.md",
+    "stringstream.md",
+    "401 Ch1 Summary.md",
+    "OuterWilds_ProjectList.md",
+    "OuterWilds Templete Improvements.md",
+    "PCB List.md",
+    "Untitled_Trial/Untitled.base",
+    "Untitled_Trial",
+    "Untitled_Trial/Untitled 1.base",
+    "Untitled_Trial/Untitled.canvas",
     "大二秋/Course images/Pasted image 20260329214642.png",
     "大二秋/Course images/Pasted image 20260329213320.png",
-    "大二秋/Course images/Pasted image 20260329213304.png",
-    "大二秋/Course images/Pasted image 20260329211421.png",
-    "stringstream.md",
-    "大二春/习概（我看你能坚持记多少）.md",
-    "大二秋/Course images/Pasted image 20260325123112.png",
-    "大二春/ECE 401.md",
-    "大二秋/Course images/Pasted image 20260325121751.png",
-    "大二春/ECE 280/Enum.md",
     "大二春/ECE 280",
-    "大二秋/Course images/Pasted image 20260325120815.png",
-    "Daily Notes/2026-03-25.md",
-    "Daily Notes/2026-03-24.md",
-    "Daily Notes/2026-03-18.md",
-    "大二秋/Course images/Pasted image 20260324164759.png",
-    "大二秋/Course images/Pasted image 20260324164241.png",
-    "大二秋/Course images/Pasted image 20260324163640.png",
-    "Daily Notes/2026-03-13.md",
-    "Daily Notes/2026-03-10.md",
-    "Daily Notes/2026-03-12.md",
-    "Daily Notes/2026-03-14.md",
-    "Daily Notes/2026-03-16.md",
     "大二春",
-    "Untitled 1.canvas",
     "大一夏",
-    "校拟饭饭（？）",
-    "Untitled 1.base",
-    "Untitled.base",
-    "Untitled.canvas",
-    "2026美赛Preparation/Untitled",
-    "2026美赛Preparation",
-    "大二秋/ECE 215.pdf",
-    "大二秋/ECE 215_tmp.html"
+    "校拟饭饭（？）"
   ]
 }
