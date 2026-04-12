@@ -45,4 +45,5 @@
 	- For those `std::string` you deal with, that's ==`<string>`==
 	- `atoi()` to turn string into int, that's ==`<cstdlib>`==
 	- `setw()`, that's ==`<iomanip>`==
-	- 
+
+ - 动态分配的时候，`new <type> [num]` 这个 num 得是 `size_t` 
