@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ff962bb6b40016e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "prp随笔（你才想起来弄这个？）/随机生长.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "随机生长"
-            }
-          },
-          {
             "id": "9bcc7283784f2110",
             "type": "leaf",
             "state": {
@@ -41,26 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大二春/ECE 280/Stupid mistakes in ECE280.md",
+                "file": "大二春/CHEM2110J TA/Lab 5 Report Grading.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stupid mistakes in ECE280"
-            }
-          },
-          {
-            "id": "ce721f414fb6403f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "大二春/ECE 280/Testing.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Testing"
+              "title": "Lab 5 Report Grading"
             }
           },
           {
@@ -69,15 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-04-12.md",
+                "file": "Daily Notes/2026-04-13.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-12"
+              "title": "2026-04-13"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,8 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5,
-    "collapsed": true
+    "width": 275.5
   },
   "right": {
     "id": "4aecc4bad07f5047",
@@ -237,18 +209,22 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "ff962bb6b40016e1",
+  "active": "e56639d84d341f1d",
   "lastOpenFiles": [
-    "prp随笔（你才想起来弄这个？）/去心随机生长板.md",
-    "大二春/ECE 280/Dynamic allocation  and Destructor.md",
+    "大二春/ECE 280/Stupid mistakes in ECE280.md",
+    "大二春/CHEM2110J TA/Lab 5 Report Grading.md",
+    "大二春/CHEM2110J TA",
+    "Daily Notes/2026-04-13.md",
+    "任务总览.md",
+    "大二春/ECE 280/Testing.md",
     "prp随笔（你才想起来弄这个？）/随机生长.md",
+    "大二春/ECE 280/Dynamic allocation  and Destructor.md",
+    "Daily Notes/2026-04-12.md",
+    "prp随笔（你才想起来弄这个？）/去心随机生长板.md",
     "prp随笔（你才想起来弄这个？）/去心均质板的应力图.md",
     "prp随笔（你才想起来弄这个？）/属性空间散点图与收敛性.md",
     "prp随笔（你才想起来弄这个？）/ODB图像展示.md",
     "prp随笔（你才想起来弄这个？）/PDF 2 MD.md",
-    "大二春/ECE 280/Testing.md",
-    "大二春/ECE 280/Stupid mistakes in ECE280.md",
-    "Daily Notes/2026-04-12.md",
     "Daily Notes/2026-04-11.md",
     "Daily Notes/2026-04-10.md",
     "prp随笔（你才想起来弄这个？）/初生Inp的Abaqus形态解读.md",
@@ -277,16 +253,12 @@
     "Untitled Kanban 1.md",
     "Untitled 1.canvas",
     "Untitled 1.base",
-    "Question III Rubric.md",
-    "2025-W46.md",
-    "2025-W41.md",
     "Arch-Linux",
     "Untitled_Trial/Untitled.base",
     "Untitled_Trial",
     "Untitled_Trial/Untitled 1.base",
     "Untitled_Trial/Untitled.canvas",
     "大二春/ECE 280",
-    "大二春",
-    "大一夏"
+    "大二春"
   ]
 }
