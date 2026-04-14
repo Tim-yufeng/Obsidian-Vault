@@ -1,4 +1,5 @@
 <span class="green"> 运行了./bin/TxtToInp Dense4/“encode MatTiles_137 4.txt” Dense4/MatTiles_137_4.inp，成功生成了第一个inp文件，并且能够成功导入Abaqus，结果是一张2D矩形平板 </span>
+
 ![[Pasted image 20260412221224.png]]
 在有限元中处理拓扑结构的常见方法有两种：贴体网格（Body-fitted mesh，即你期望的镂空网格）与固定网格（Fixed grid/多材料插值）。我们当前采用的是后者。
 

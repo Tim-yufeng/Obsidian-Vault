@@ -45,6 +45,41 @@
       "ctime": 1757575739453,
       "path": "_Home.md",
       "title": "Base note"
+    },
+    {
+      "type": "graph",
+      "ctime": 1776152654599,
+      "title": "Filtered Graph View",
+      "options": {
+        "collapse-filter": false,
+        "search": "-path:\"Daily Notes\"  -file:Untitled",
+        "showTags": false,
+        "showAttachments": false,
+        "hideUnresolved": false,
+        "showOrphans": true,
+        "collapse-color-groups": true,
+        "colorGroups": [
+          {
+            "query": "",
+            "color": {
+              "a": 1,
+              "rgb": 10054609
+            }
+          }
+        ],
+        "collapse-display": false,
+        "showArrow": true,
+        "textFadeMultiplier": 0,
+        "nodeSizeMultiplier": 1,
+        "lineSizeMultiplier": 3.27734375,
+        "collapse-forces": false,
+        "centerStrength": 0.518713248970312,
+        "repelStrength": 10,
+        "linkStrength": 1,
+        "linkDistance": 250,
+        "scale": 0.9740045032651273,
+        "close": false
+      }
     }
   ]
 }
