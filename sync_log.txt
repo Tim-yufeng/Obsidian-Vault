@@ -13,3 +13,11 @@ To github.com:Tim-yufeng/Obsidian-Vault.git
    7eb3987..d245d88  main -> main
 å®Œæˆæ¨é€?
 2026/04/17 ÖÜÎå 13:38:44.76 å¼€å§‹æ¨é€?
+warning: in the working copy of 'sync_log.txt', LF will be replaced by CRLF the next time Git touches it
+[main 3a578e6] Auto sync 2026/04/17 å‘¨äº” 13:38:44.82
+ 1 file changed, 7 insertions(+)
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+^C

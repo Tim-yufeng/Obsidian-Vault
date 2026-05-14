@@ -6,13 +6,13 @@
 		and don't forget to include `<fstream>`
 
 ## Basic Cpp
-- ```cpp
-  case opcode_t::CALLPLUGIN:
+```cpp
+case opcode_t::CALLPLUGIN:
 
-            std::string plg_nm = creature.species->pluginNames[inst.pluginSlot];
-            ...
-            break;
-  ```
+		std::string plg_nm = creature.species->pluginNames[inst.pluginSlot];
+		...
+		break;
+```
   where's `{}` for `case` ?
   Well the thing is, if you define and initialize a new variable, you MUST use a `{}` for this `case`
 - `cout` 和 `cin` 都存在缓冲区效应，首先是 `cout`, 体现在 `cout << ` 后面的内容会先储存在一个缓冲区内，只有出现 `<< endl` , `'\n'` （不一定），`<< flush` 的时候会清除缓冲区
@@ -47,3 +47,11 @@
 	- `setw()`, that's ==`<iomanip>`==
 
  - 动态分配的时候，`new <type> [num]` 这个 num 得是 `size_t` 
+
+**`const` 在函数修饰上的辨析：**
+
+| 写法                | `const func() {}` | `func() const {}`       |
+| ----------------- | ----------------- | ----------------------- |
+| **`const` 修饰的对象** | 函数的**返回值**        | 函数本身（即 `this` 指针）       |
+| **函数类型**          | 非成员或成员函数都可以       | **只能是成员函数**             |
+| **作用**            | 返回值是常量，不能修改       | 承诺不修改成员变量，可被 const 对象调用 |
