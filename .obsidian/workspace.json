@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "prp随笔（你才想起来弄这个？）/TPMS/3D Test1.md",
+                "file": "大二夏/ECE 370/2. Operation and Operand.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3D Test1"
+              "title": "2. Operation and Operand"
             }
           },
           {
@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "大二夏/ECE 370/2. Operation and Operand.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大二夏/ECE 216.md",
+                "file": "大二夏/MATH 203.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ECE 216"
+              "title": "MATH 203"
             }
           },
           {
@@ -69,16 +69,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-05-18.md",
+                "file": "Daily Notes/2026-05-19.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-18"
+              "title": "2026-05-19"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -141,12 +140,12 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 275.5,
+    "collapsed": true
   },
   "right": {
     "id": "4aecc4bad07f5047",
@@ -238,8 +237,24 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "4b4cd80f61790dca",
+  "active": "4ab18b0ee3baeb27",
   "lastOpenFiles": [
+    "大二秋/Course images/Pasted image 20260520110858.png",
+    "大二秋/Course images/Pasted image 20260520105942.png",
+    "prp随笔（你才想起来弄这个？）/TPMS/3D Test1.md",
+    "prp随笔（你才想起来弄这个？）/TPMS/3D Test1 1.md",
+    "大二夏/MATH 203.md",
+    "大二秋/Course images/Pasted image 20260519221121.png",
+    "大二秋/Course images/Pasted image 20260519220840.png",
+    "大二秋/Course images/Pasted image 20260519220047.png",
+    "大二夏/ECE 216.md",
+    "大二秋/Course images/Pasted image 20260519213807.png",
+    "大二秋/Course images/Pasted image 20260519213755.png",
+    "大二秋/Course images/Pasted image 20260519213742.png",
+    "大二秋/Course images/Pasted image 20260519212944.png",
+    "大二秋/Course images/Pasted image 20260519212306.png",
+    "大二秋/Course images/Pasted image 20260519212256.png",
+    "Daily Notes/2026-05-19.md",
     "大二夏/ECE 370/2. Operation and Operand.md",
     "Daily Notes/2026-05-18.md",
     "prp随笔（你才想起来弄这个？）/TPMS/29.6.md",
@@ -249,26 +264,13 @@
     "大二夏/ECE 370/ECE 370.md",
     "大二夏/ECE 370/1. Introduction to Computer.md",
     "Daily Notes/2026-05-15.md",
-    "大二夏/ECE 216.md",
-    "大二秋/Course images/Pasted image 20260515192138.png",
-    "大二秋/Course images/Pasted image 20260515192104.png",
-    "大二秋/Course images/Pasted image 20260515192001.png",
     "Daily Notes/2026-05-14.md",
     "会议议程2.0.md",
     "Daily Notes/2026-04-03.md",
-    "大二秋/Course images/Pasted image 20260514230609.png",
-    "大二秋/Course images/Pasted image 20260514230032.png",
-    "大二秋/Course images/Pasted image 20260514225438.png",
-    "大二秋/Course images/Pasted image 20260514225336.png",
-    "大二秋/Course images/Pasted image 20260514224930.png",
-    "大二秋/Course images/Pasted image 20260514223215.png",
-    "大二秋/Course images/Pasted image 20260514195107.png",
-    "prp随笔（你才想起来弄这个？）/TPMS/3D Test1.md",
     "Daily Notes/2026-05-13.md",
     "prp随笔（你才想起来弄这个？）/TPMS",
     "Daily Notes/2026-05-12.md",
     "大二夏/ECE 370",
-    "大二夏/MATH 203.md",
     "大二夏",
     "prp随笔（你才想起来弄这个？）/3D情形.md",
     "prp随笔（你才想起来弄这个？）/随机生长（2D）.md",
@@ -276,9 +278,6 @@
     "prp随笔（你才想起来弄这个？）/ODB图像展示.md",
     "prp随笔（你才想起来弄这个？）/初生Inp的Abaqus形态解读.md",
     "lab5-exercice.md",
-    "E5-Experimental-Quiz.md",
-    "Daily Notes/2026-04-29.md",
-    "大二春/ECE 280/Array for Queue.md",
     "sync_log.txt",
     "backup.bat",
     "backup.bat.txt",
