@@ -15,7 +15,7 @@
 - `ls /sys/firmware/efi/efivars` ：目录存在且有文件，则说明系统已经成功以 UEFI 模式启动
 - `cfdisk /dev/sda` ：用 cfdisk 工具来管理 `/dev/sda` 这块硬盘的分区表
 	- `cfdisk` 是一个有图形化菜单（虽然也没好看到哪去）的**交互式分区管理工具**
-	- `/dev/sda` 是Linux中的第一块硬盘（第二块就是`/dev/sda`……以此类推）这里我们就对付这一块硬盘
+	- `/dev/sda` 是Linux中的第一块硬盘（第二块就是`/dev/sdb`……以此类推）这里我们就对付这一块硬盘
 		- 可以通过`lsblk`或`fdisk -l` 查看所有硬盘喔
 	- 然后选择 `gpt` , 这是现代标准的分区表
 - 分区操作：
