@@ -13,16 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大二夏/ECE 370/4. Instruction Encoding.md",
+                "file": "大二夏/401/401 Ch1 Summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Instruction Encoding"
+              "title": "401 Ch1 Summary"
             }
           },
           {
-            "id": "3098440eaebc1fa9",
+            "id": "0707835de7954ef4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,35 +36,35 @@
             }
           },
           {
-            "id": "0707835de7954ef4",
+            "id": "f9303275a9a07b96",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大二夏/401/ECE 401.md",
+                "file": "Daily Notes/2026-06-02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ECE 401"
+              "title": "2026-06-02"
             }
           },
           {
-            "id": "a25b351b1e6fbe1e",
+            "id": "3864ef77d96c1fbb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fourier Transformation&Fourier Series.md",
+                "file": "大二夏/ECE216/216-Chapter2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fourier Transformation&Fourier Series"
+              "title": "216-Chapter2"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -223,14 +223,35 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "a25b351b1e6fbe1e",
+  "active": "f9303275a9a07b96",
   "lastOpenFiles": [
+    "大二秋/ECE 270.md",
+    "大二夏/ECE216/216-Chapter2.md",
+    "Daily Notes/2026-06-02.md",
+    "大二秋/Course images/Pasted image 20260602144523.png",
+    "大二秋/Course images/Pasted image 20260602144515.png",
+    "大二秋/Course images/Pasted image 20260602144429.png",
+    "大二秋/Course images/Pasted image 20260602143520.png",
+    "大二秋/Course images/Pasted image 20260602141809.png",
+    "大二秋/Course images/9b812a950ca8c61395c3603ed9c09866.jpg",
+    "大二秋/Course images/Pasted image 20260602140554.png",
+    "大二夏/ECE216/216-Chapter1.md",
+    "大二夏/ECE216",
+    "大二夏/MATH 203.md",
+    "Daily Notes/2026-06-01.md",
+    "大二秋/Course images/Pasted image 20260601203815.png",
+    "大二夏/401/ECE 401.md",
+    "大二秋/Course images/Pasted image 20260601105355.png",
+    "大二秋/Course images/Pasted image 20260531221820.png",
+    "大二夏/401/401 Ch1 Summary.md",
+    "2025-W46.md",
+    "2025-W41.md",
+    "大二夏/ECE 370/4. Instruction Encoding.md",
+    "Daily Notes/2026-05-31.md",
+    "Fourier Transformation&Fourier Series.md",
     "Daily Notes/2026-05-30.md",
     "Daily Notes/2026-05-29.md",
     "大二夏/To be done.md",
-    "大二夏/ECE 370/4. Instruction Encoding.md",
-    "大二夏/401/ECE 401.md",
-    "大二夏/MATH 203.md",
     "大二夏/ECE 370/5. Single Cycle Processor.md",
     "大二夏/Marketing Strategy.md",
     "Arch-Linux/Arch-Linux in VitualMachine 1.md",
@@ -241,26 +262,6 @@
     "prp随笔（你才想起来弄这个？）/TPMS/迁移.md",
     "crp/传统对偶攻击.md",
     "Untitled Kanban 3.md",
-    "Daily Notes/2026-05-28.md",
-    "大二夏/ECE 216.md",
-    "大二秋/Course images/Pasted image 20260529140114.png",
-    "大二秋/Course images/Pasted image 20260529140103.png",
-    "crp/两种区分器.md",
-    "crp/理论最优区分器.md",
-    "crp/BKW.md",
-    "大二秋/Course images/Pasted image 20260528150801.png",
-    "大二秋/Course images/Pasted image 20260528150353.png",
-    "大二秋/Course images/Pasted image 20260528143230.png",
-    "大二秋/Course images/Pasted image 20260527225622.png",
-    "大二秋/Course images/Pasted image 20260527225613.png",
-    "大二秋/Course images/Pasted image 20260527225544.png",
-    "大二秋/Course images/Pasted image 20260527225405.png",
-    "大二秋/Course images/Pasted image 20260527225343.png",
-    "Daily Notes/2026-05-27.md",
-    "Daily Notes/2026-05-25.md",
-    "Daily Notes/2026-05-26.md",
-    "crp/Summary.md",
-    "Daily Notes/2026-05-23.md",
     "大二夏/401",
     "crp",
     "prp随笔（你才想起来弄这个？）/TPMS",
@@ -270,7 +271,6 @@
     "backup.bat",
     "backup.bat.txt",
     "新建 文本文档.txt",
-    "大二春/CHEM2110J TA",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled_Trial/Untitled.canvas"

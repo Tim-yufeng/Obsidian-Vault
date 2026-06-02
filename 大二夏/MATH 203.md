@@ -20,4 +20,11 @@ OR: disjunction      $\wedge$
 
 ![[Pasted image 20260519221121.png]]
 
+**Magma, Semigroup and Monoid**
+
+magma 要求最低，只需要 pair $(M, *)$ 是封闭的即可，就是 $*: M \times M \to M$ ，或者说，两个 M 中元素参与这个运算结果一定还在M内
+Semigroup 就是 magma 基础上，要求 $*$ 运算满足结合律
+Monoid 在 semigroup 基础上，要求存在 identity element：
+
+![[Pasted image 20260601203815.png]]
 
