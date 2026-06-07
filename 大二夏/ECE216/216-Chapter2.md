@@ -38,11 +38,11 @@ $$
 ![[Pasted image 20260602140554.png]]
 通过这类系统的特殊性质，我们可以完成以下推导：
 ![[9b812a950ca8c61395c3603ed9c09866.jpg]]
-最终得到的结论就是，定义 系统的**相应函数** $h(t)$，是施加一个 impulse $\delta(t)$ 的结果：
+最终得到的结论就是，定义 系统的**响应函数** $h(t)$，是施加一个 impulse $\delta(t)$ 的结果：
 $$
 \delta(t) \xrightarrow[]{T}h(t)
 $$
-而系统函数 $y(t)$ 就可以写成信号函数 $x(t)$ 和这个系统相应函数的卷积：
+而系统函数 $y(t)$ 就可以写成信号函数 $x(t)$ 和这个系统响应函数的卷积：
 $$
 y(t) = x(t)*h(t)
 $$
@@ -129,3 +129,53 @@ $$
 
 ![[Pasted image 20260602144523.png]]
 ![[Pasted image 20260602144515.png]]
+
+**Stability**
+
+也就是 BIBO stability，要求对于任意有界的输入，输出也都是有界的，可以证明，其**充要条件**就是：==impulse response is absolutely integrable==:
+$$
+\int_{-\infty}^\infty |h(t)|dt<\infty
+$$
+
+**Invertible** 
+
+一个很重要的结论：如果一个系统是 LTI，而且是可逆的，那么它的逆系统同样是 LTI
+
+对于系统 $h(t)$ ，我们表示它的逆系统为 $h_{i}(t)$ , 之前我们知道，卷积反应了两个系统的叠加组合，于是不难理解，如果 $h(t)$ 是可逆的，那么：
+$$
+h(t) * h_{i}(t) = \delta(t)
+$$
+![[Pasted image 20260604191704.png]]
+
+有趣的是这甚至不是 Theorem, 而是 Definition
+
+### Step response
+
+在很多时候，寻找一个 LTI System 的 $h(t)$，我们不是直接用 $\delta(t)$ 积分，而是先用 step function $u(t)$ 积分，得到的结果称为 step response, 然后对它求导，得到 impulse response，这得益于 LTI 系统的交换律性质
+step response 表示为 $s(t)$
+
+![[Pasted image 20260604192044.png]]
+
+<span class="green"> 这里我认为有必要强调一下，对于 impulse function, step function 这类函数，不能或不建议用传统函数的思维去思考他们，一个比较合适的思维切入点是， focus on 函数括号内的，whatever it is 的整体值，比方说 step function，这个整体值大于0，函数值就是1，否则就是0，按照这个思路去分析会容易得多 </span>
+
+然后就是久违的，微分方程了，这门课我们研究的还都是线性微分方程，回忆286中一种很常见的线性微分方程形式：
+$$
+a_{1}(x)y'(t) + a_{0}(x)y(t)=f(x)
+$$
+对应到这门课，$y(t)$ 就是我们研究的系统函数，而 $f(x)$ 是信号函数，$a_{1}(x), a_{0}(x)$, 我们不用管，so far 我们对付的都是系数是常数的线性微分方程：
+
+![[Pasted image 20260604193254.png]]
+
+$N$ 称为 **order of the system**
+
+然后和286基本没什么区别的：
+
+![[Pasted image 20260604193455.png]]
+![[Pasted image 20260604193505.png]]
+
+natural response 就是解右侧是0的微分方程，解法也是非常的简单粗暴，或者说非常的 "engineer"，假设 $y(t)=Ce^{st}$ ，然后代入把 s 解出来
+最终会得到这样一个多项式方程：
+$$
+\sum^N_{k=0}a_{k}s^k=0
+$$
+

@@ -8,7 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b0ca6d227ef70a1b",
+            "id": "0707835de7954ef4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/2026-06-07.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-06-07"
+            }
+          },
+          {
+            "id": "797d015e785332fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,35 +36,7 @@
             }
           },
           {
-            "id": "0707835de7954ef4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "大二夏/MATH 203.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MATH 203"
-            }
-          },
-          {
-            "id": "f9303275a9a07b96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2026-06-02.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-06-02"
-            }
-          },
-          {
-            "id": "3864ef77d96c1fbb",
+            "id": "9429c0d4c6a82335",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -147,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "大二夏/ECE 370/2. Operation and Operand.md",
+                "file": "Daily Notes/2026-06-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +143,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2. Operation and Operand 的反向链接列表"
+              "title": "2026-06-02 的反向链接列表"
             }
           },
           {
@@ -223,45 +209,46 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "f9303275a9a07b96",
+  "active": "9429c0d4c6a82335",
   "lastOpenFiles": [
-    "大二秋/ECE 270.md",
+    "Daily Notes/2026-06-07.md",
     "大二夏/ECE216/216-Chapter2.md",
-    "Daily Notes/2026-06-02.md",
-    "大二秋/Course images/Pasted image 20260602144523.png",
-    "大二秋/Course images/Pasted image 20260602144515.png",
-    "大二秋/Course images/Pasted image 20260602144429.png",
-    "大二秋/Course images/Pasted image 20260602143520.png",
-    "大二秋/Course images/Pasted image 20260602141809.png",
-    "大二秋/Course images/9b812a950ca8c61395c3603ed9c09866.jpg",
-    "大二秋/Course images/Pasted image 20260602140554.png",
-    "大二夏/ECE216/216-Chapter1.md",
-    "大二夏/ECE216",
-    "大二夏/MATH 203.md",
-    "Daily Notes/2026-06-01.md",
-    "大二秋/Course images/Pasted image 20260601203815.png",
-    "大二夏/401/ECE 401.md",
-    "大二秋/Course images/Pasted image 20260601105355.png",
-    "大二秋/Course images/Pasted image 20260531221820.png",
     "大二夏/401/401 Ch1 Summary.md",
+    "大二夏/401/ECE 401.md",
+    "Daily Notes/2026-06-06.md",
+    "大二秋/Course images/Pasted image 20260606122317.png",
+    "大二秋/Course images/Pasted image 20260606122251.png",
+    "大二秋/Course images/Pasted image 20260606121511.png",
+    "大二秋/Course images/Pasted image 20260606121424.png",
+    "大二秋/Course images/Pasted image 20260606121209.png",
+    "大二秋/Course images/Pasted image 20260606121114.png",
+    "大二秋/Course images/Pasted image 20260606120859.png",
+    "大二秋/Course images/Pasted image 20260606120544.png",
+    "大二秋/Course images/Pasted image 20260606120353.png",
+    "Daily Notes/2026-06-05.md",
+    "大二夏/MATH 203.md",
+    "crp/传统对偶攻击.md",
+    "大二夏/ECE 370/Lab Report/Report-Lab2.md",
+    "Daily Notes/2026-06-04.md",
+    "大二秋/Course images/Pasted image 20260605110638.png",
+    "crp/两种区分器.md",
+    "crp/理论最优区分器.md",
+    "crp/BKW.md",
+    "crp/Regev's LWE.md",
+    "crp/Summary.md",
+    "大二夏/ECE 370/5. Single Cycle Processor.md",
+    "大二夏/ECE 370/ECE 370.md",
+    "大二夏/ECE216/216-Chapter1.md",
+    "Daily Notes/2026-06-02.md",
+    "大二夏/ECE 370/2. Operation and Operand.md",
+    "大二夏/ECE 370/Lab Report",
+    "大二夏/ECE 370/3. Function Call.md",
+    "大二夏/ECE 370/1. Introduction to Computer.md",
+    "大二秋/ECE 270.md",
+    "大二夏/ECE216",
+    "Daily Notes/2026-06-01.md",
     "2025-W46.md",
     "2025-W41.md",
-    "大二夏/ECE 370/4. Instruction Encoding.md",
-    "Daily Notes/2026-05-31.md",
-    "Fourier Transformation&Fourier Series.md",
-    "Daily Notes/2026-05-30.md",
-    "Daily Notes/2026-05-29.md",
-    "大二夏/To be done.md",
-    "大二夏/ECE 370/5. Single Cycle Processor.md",
-    "大二夏/Marketing Strategy.md",
-    "Arch-Linux/Arch-Linux in VitualMachine 1.md",
-    "大二夏/ECE 370/3. Function Call.md",
-    "大二夏/ECE 370/2. Operation and Operand.md",
-    "大二夏/ECE 370/1. Introduction to Computer.md",
-    "大二夏/ECE 370/Call Function Process.md",
-    "prp随笔（你才想起来弄这个？）/TPMS/迁移.md",
-    "crp/传统对偶攻击.md",
-    "Untitled Kanban 3.md",
     "大二夏/401",
     "crp",
     "prp随笔（你才想起来弄这个？）/TPMS",
@@ -270,7 +257,6 @@
     "sync_log.txt",
     "backup.bat",
     "backup.bat.txt",
-    "新建 文本文档.txt",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled_Trial/Untitled.canvas"
