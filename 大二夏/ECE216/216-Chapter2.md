@@ -76,10 +76,10 @@ Fix one, to the other it's linear, both holds.
 $$
 \text{Commutative: } x(t) * h(t) = h(t) * x(t)
 $$
-数学上成立，但实际上不一定任意 \(x(t)\) 函数都能成为 system
+数学上成立，但实际上不一定任意 (x(t)) 函数都能成为 system
 (不一定能设计出这样一个系统)
 
-**结合律 (Associative Property) **
+**结合律 (Associative Property)**
 $$
 \text{Associative: } [x(t) * h_1(t)] * h_2(t) = x(t) * [h_1(t) * h_2(t)]
 $$
