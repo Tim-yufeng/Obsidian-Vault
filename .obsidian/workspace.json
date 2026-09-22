@@ -39,10 +39,14 @@
             "id": "eb655ee7b7622948",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "大二夏/ECE 370/2. Operation and Operand.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "2. Operation and Operand"
             }
           },
           {
@@ -51,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-09-20.md",
+                "file": "ECE281/03-Comparison Sort.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-20"
+              "title": "03-Comparison Sort"
             }
           }
         ],
@@ -80,7 +84,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -123,8 +129,7 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -222,38 +227,38 @@
   },
   "active": "0042ee8d226617ac",
   "lastOpenFiles": [
+    "ECE281/08-Hash Table Size, Rehashing, and Applications.md",
+    "ECE281/07-Hashing Collision Resolution.md",
+    "ECE281/06-Hashing Basics.md",
+    "大三秋/ECE 445/L2 Model Evaluation.md",
+    "大二夏/ECE 370/2. Operation and Operand.md",
+    "大三秋/ECE 373/L1 Introduction to Embedded Systems.md",
+    "大三秋/ECE 373/L3 Embedded Programming.md",
+    "大三秋/ECE 373/L2 MCU architecture.md",
+    "ECE281/03-Comparison Sort.md",
+    "大三秋/ECE 281/L2 Asymptotic Algorithm Analysis.md",
+    "ECE281/02-Asymptotic Algorithm Analysis.md",
+    "ECE281/05-Linear Time Selection.md",
+    "ECE281/04-Non-Comparison Sort.md",
+    "Daily Notes/2026-09-21.md",
+    "Daily Notes/2026-09-20.md",
     "Daily Notes/2026-09-18.md",
     "Daily Notes/2026-09-17.md",
-    "Daily Notes/2026-09-20.md",
     "大三秋/ME 467/L2 Configuration Space.md",
-    "大三秋/ECE 373/L1 Introduction to Embedded Systems.md",
     "All Images/Pasted image 20260920101835.png",
-    "大二夏/ECE 370/2. Operation and Operand.md",
     "大三秋/ECE 445/python/scikit-learn 与 KNN.md",
     "大二夏/ECE 370/3. Function Call.md",
     "大二夏/ECE 370/1. Introduction to Computer.md",
     "大三秋/ECE 445/python",
-    "大三秋/ECE 445/L2 Model Evaluation.md",
-    "大三秋/ECE 373/L2 MCU architecture.md",
-    "大三秋/ECE 373/L3 Embedded Programming.md",
     "大二夏/ECE 370/ECE 370.md",
     "大二夏/ECE 370/Call Function Process.md",
-    "ECE281/08-Hash Table Size, Rehashing, and Applications.md",
     "大二夏/ECE 370/4. Instruction Encoding.md",
     "大三秋/ME 467/L3 Transform.md",
-    "ECE281/07-Hashing Collision Resolution.md",
-    "ECE281/06-Hashing Basics.md",
-    "ECE281/05-Linear Time Selection.md",
-    "ECE281/04-Non-Comparison Sort.md",
-    "ECE281/02-Asymptotic Algorithm Analysis.md",
     "All Images/Pasted image 20260917182626.png",
     "All Images/Pasted image 20260917182625.png",
     "All Images/Pasted image 20260917182624.png",
     "All Images/Pasted image 20260917182622.png",
-    "ECE281/03-Comparison Sort.md",
     "ECE 280 new notes/17-Deep-Copy.md",
-    "ECE 280 new notes/18-Dynamic-Resizing.md",
-    "ECE 280 new notes/16-Dynamic-Memory-Allocation-and-Destructor.md",
     "All Images/Pasted image 20260917143444-02.png",
     "All Images/Pasted image 20260917143444-01.png",
     "All Images/Pasted image 20260917143444.png",

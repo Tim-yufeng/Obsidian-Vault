@@ -141,10 +141,10 @@ $F_1 = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \t
 二分类 (Binary Classification) 的 target 只有两个类别；多分类（Multiclass Classification）的 target 有 $C > 2$ 个互斥类别，混淆矩阵每个类别占一行一列：
 
 | 实际 ↓ / 预测 → | Setosa | Versicolor | Virginica |
-| --- | --- | --- | --- |
-| Setosa | 18 | 0 | 0 |
-| Versicolor | 0 | 16 | 2 |
-| Virginica | 0 | 3 | 15 |
+| ----------- | ------ | ---------- | --------- |
+| Setosa      | 18     | 0          | 0         |
+| Versicolor  | 0      | 16         | 2         |
+| Virginica   | 0      | 3          | 15        |
 
 评价某一个类别时，把它当作 positive、其余当作 negative，就能逐类算 precision、recall 与 F1。以 versicolor 为例：$TP = 16$，$FN = 2$（被预测成 virginica），$FP = 3$（virginica 被预测成 versicolor），于是 precision 与 recall 分别是 $16/19$ 与 $16/18$。
 
